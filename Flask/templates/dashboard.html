@@ -5,6 +5,9 @@
 {% block content %}
 <div class="d-flex justify-content-center align-items-center vh-100">
     <div class="container text-center">
+        <div class="d-flex justify-content-end w-100 mb-4">
+            <button onclick="window.location.reload();" class="btn btn-dark btn-export">Atualizar</button>
+        </div>
         <h1 class="mb-4">Dashboard de Temperatura e Umidade</h1>
         <form method="get" action="{{ url_for('dashboard') }}" class="mb-4 date-form">
             <label for="start_date">Data Início:</label>
@@ -17,9 +20,6 @@
             <!-- Gráfico -->
             {{ combined_graph|safe }}
         </div>
-        <a href="{{ url_for('index') }}">
-            <button class="btn btn-custom mt-4">Início</button>
-        </a>
         <form action="{{ url_for('export_csv') }}" method="get">
             <button type="submit" class="btn btn-dark btn-export mt-4">Exportar Dados em CSV</button>
         </form>

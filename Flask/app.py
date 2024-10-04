@@ -150,8 +150,6 @@ def index():
     return render_template("index.html")
 
 
-from datetime import datetime, timedelta
-
 @app.route("/dashboard", methods=["GET", "POST"])
 @login_required
 def dashboard():
@@ -169,9 +167,12 @@ def dashboard():
         start_date = datetime.strptime(start_date_str, "%Y-%m-%d")
         end_date = datetime.strptime(end_date_str, "%Y-%m-%d")
 
+    # Ajustar o end_date para incluir o final do dia
+    end_date = end_date + timedelta(days=1) - timedelta(seconds=1)
+
     # Filtrar os dados com base no intervalo de datas
     dados = DadosSensor.query.filter(DadosSensor.timestamp >= start_date, DadosSensor.timestamp <= end_date).order_by(DadosSensor.timestamp.asc()).all()
-    timestamps = [d.timestamp.strftime("%d/%m/%Y %H:%M:%S") for d in dados]
+    timestamps = [d.timestamp.strftime("%Y-%m-%d %H:%M:%S") for d in dados]
     temperaturas = [d.temperatura for d in dados]
     umidades = [d.umidade for d in dados]
 

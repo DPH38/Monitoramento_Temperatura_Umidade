@@ -631,3 +631,820 @@
 2024-10-04 15:57:22,055 INFO: Acessando a rota dashboard
 2024-10-04 15:57:22,127 INFO: 127.0.0.1 - - [04/Oct/2024 15:57:22] "GET /dashboard HTTP/1.1" 200 -
 2024-10-04 15:57:22,177 INFO: 127.0.0.1 - - [04/Oct/2024 15:57:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:14:27,895 INFO: Tabelas criadas no banco de dados.
+2024-10-04 16:14:27,896 INFO: Iniciando o servidor Flask...
+2024-10-04 16:14:27,939 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-04 16:14:27,939 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 16:14:27,942 INFO:  * Restarting with stat
+2024-10-04 16:14:28,746 INFO: Tabelas criadas no banco de dados.
+2024-10-04 16:14:28,746 INFO: Iniciando o servidor Flask...
+2024-10-04 16:14:28,758 WARNING:  * Debugger is active!
+2024-10-04 16:14:28,761 INFO:  * Debugger PIN: 454-801-709
+2024-10-04 16:14:45,547 INFO: Carregando usuário com ID: 1
+2024-10-04 16:14:45,569 INFO: Acessando a rota index
+2024-10-04 16:14:45,656 INFO: 127.0.0.1 - - [04/Oct/2024 16:14:45] "GET / HTTP/1.1" 200 -
+2024-10-04 16:14:45,831 INFO: 127.0.0.1 - - [04/Oct/2024 16:14:45] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 16:14:45,833 INFO: 127.0.0.1 - - [04/Oct/2024 16:14:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:14:50,674 INFO: Carregando usuário com ID: 1
+2024-10-04 16:14:50,677 INFO: Usuário porto deslogado
+2024-10-04 16:14:50,678 INFO: 127.0.0.1 - - [04/Oct/2024 16:14:50] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-10-04 16:14:50,687 INFO: Acessando a rota de login
+2024-10-04 16:14:50,694 INFO: 127.0.0.1 - - [04/Oct/2024 16:14:50] "GET /login HTTP/1.1" 200 -
+2024-10-04 16:14:55,207 INFO: Acessando a rota de login
+2024-10-04 16:14:55,329 INFO: Usuário porto logado com sucesso
+2024-10-04 16:14:55,330 INFO: 127.0.0.1 - - [04/Oct/2024 16:14:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-10-04 16:14:55,338 INFO: Carregando usuário com ID: 1
+2024-10-04 16:14:55,340 INFO: Acessando a rota index
+2024-10-04 16:14:55,341 INFO: 127.0.0.1 - - [04/Oct/2024 16:14:55] "GET / HTTP/1.1" 200 -
+2024-10-04 16:14:55,386 INFO: 127.0.0.1 - - [04/Oct/2024 16:14:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:14:55,388 INFO: 127.0.0.1 - - [04/Oct/2024 16:14:55] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 16:14:56,820 INFO: Carregando usuário com ID: 1
+2024-10-04 16:14:56,822 INFO: Acessando a rota dashboard
+2024-10-04 16:14:57,615 INFO: 127.0.0.1 - - [04/Oct/2024 16:14:57] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 16:14:57,670 INFO: 127.0.0.1 - - [04/Oct/2024 16:14:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:15:05,214 INFO: Carregando usuário com ID: 1
+2024-10-04 16:15:05,217 INFO: Acessando a rota dashboard
+2024-10-04 16:15:05,340 INFO: 127.0.0.1 - - [04/Oct/2024 16:15:05] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:15:05,405 INFO: 127.0.0.1 - - [04/Oct/2024 16:15:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:15:33,373 INFO: Carregando usuário com ID: 1
+2024-10-04 16:15:33,375 INFO: Acessando a rota dashboard
+2024-10-04 16:15:33,436 INFO: 127.0.0.1 - - [04/Oct/2024 16:15:33] "GET /dashboard?start_date=2024-11-04&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:15:33,484 INFO: 127.0.0.1 - - [04/Oct/2024 16:15:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:16:08,089 INFO: Carregando usuário com ID: 1
+2024-10-04 16:16:08,090 INFO: Acessando a rota dashboard
+2024-10-04 16:16:08,147 INFO: 127.0.0.1 - - [04/Oct/2024 16:16:08] "GET /dashboard?start_date=2024-11-04&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:16:08,183 INFO: 127.0.0.1 - - [04/Oct/2024 16:16:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:16:31,367 INFO: Carregando usuário com ID: 1
+2024-10-04 16:16:31,368 INFO: Acessando a rota index
+2024-10-04 16:16:31,369 INFO: 127.0.0.1 - - [04/Oct/2024 16:16:31] "GET / HTTP/1.1" 200 -
+2024-10-04 16:16:31,440 INFO: 127.0.0.1 - - [04/Oct/2024 16:16:31] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 16:16:31,442 INFO: 127.0.0.1 - - [04/Oct/2024 16:16:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:16:36,588 INFO: Carregando usuário com ID: 1
+2024-10-04 16:16:36,589 INFO: Usuário porto deslogado
+2024-10-04 16:16:36,590 INFO: 127.0.0.1 - - [04/Oct/2024 16:16:36] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-10-04 16:16:36,599 INFO: Acessando a rota de login
+2024-10-04 16:16:36,602 INFO: 127.0.0.1 - - [04/Oct/2024 16:16:36] "GET /login HTTP/1.1" 200 -
+2024-10-04 16:16:50,121 INFO: 127.0.0.1 - - [04/Oct/2024 16:16:50] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-04 16:16:50,145 INFO: Acessando a rota de login
+2024-10-04 16:16:50,148 INFO: 127.0.0.1 - - [04/Oct/2024 16:16:50] "GET /login?next=/ HTTP/1.1" 200 -
+2024-10-04 16:16:56,097 INFO: Acessando a rota de login
+2024-10-04 16:16:56,191 INFO: Usuário porto logado com sucesso
+2024-10-04 16:16:56,192 INFO: 127.0.0.1 - - [04/Oct/2024 16:16:56] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+2024-10-04 16:16:56,202 INFO: Carregando usuário com ID: 1
+2024-10-04 16:16:56,203 INFO: Acessando a rota index
+2024-10-04 16:16:56,203 INFO: 127.0.0.1 - - [04/Oct/2024 16:16:56] "GET / HTTP/1.1" 200 -
+2024-10-04 16:16:56,241 INFO: 127.0.0.1 - - [04/Oct/2024 16:16:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:16:56,250 INFO: 127.0.0.1 - - [04/Oct/2024 16:16:56] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 16:16:57,515 INFO: Carregando usuário com ID: 1
+2024-10-04 16:16:57,516 INFO: Acessando a rota dashboard
+2024-10-04 16:16:57,598 INFO: 127.0.0.1 - - [04/Oct/2024 16:16:57] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 16:16:57,650 INFO: 127.0.0.1 - - [04/Oct/2024 16:16:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:17:07,967 INFO: Carregando usuário com ID: 1
+2024-10-04 16:17:07,969 INFO: Acessando a rota dashboard
+2024-10-04 16:17:08,033 INFO: 127.0.0.1 - - [04/Oct/2024 16:17:08] "GET /dashboard?start_date=2024-10-04&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:17:08,079 INFO: 127.0.0.1 - - [04/Oct/2024 16:17:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:17:16,270 INFO: Carregando usuário com ID: 1
+2024-10-04 16:17:16,271 INFO: Acessando a rota dashboard
+2024-10-04 16:17:16,326 INFO: 127.0.0.1 - - [04/Oct/2024 16:17:16] "GET /dashboard?start_date=2024-10-04&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:17:16,373 INFO: 127.0.0.1 - - [04/Oct/2024 16:17:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:17:21,795 INFO: Carregando usuário com ID: 1
+2024-10-04 16:17:21,797 INFO: Acessando a rota dashboard
+2024-10-04 16:17:21,865 INFO: 127.0.0.1 - - [04/Oct/2024 16:17:21] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:17:21,919 INFO: 127.0.0.1 - - [04/Oct/2024 16:17:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:17:30,603 INFO: Carregando usuário com ID: 1
+2024-10-04 16:17:30,605 INFO: Exportando dados para CSV
+2024-10-04 16:17:30,614 INFO: 127.0.0.1 - - [04/Oct/2024 16:17:30] "GET /export_csv HTTP/1.1" 200 -
+2024-10-04 16:18:18,097 INFO: Carregando usuário com ID: 1
+2024-10-04 16:18:18,099 INFO: Acessando a rota dashboard
+2024-10-04 16:18:18,154 INFO: 127.0.0.1 - - [04/Oct/2024 16:18:18] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:18:18,204 INFO: 127.0.0.1 - - [04/Oct/2024 16:18:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:19:32,349 INFO: Carregando usuário com ID: 1
+2024-10-04 16:19:32,352 INFO: Acessando a rota dashboard
+2024-10-04 16:19:32,410 INFO: 127.0.0.1 - - [04/Oct/2024 16:19:32] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:19:32,461 INFO: 127.0.0.1 - - [04/Oct/2024 16:19:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:19:37,723 INFO: Carregando usuário com ID: 1
+2024-10-04 16:19:37,725 INFO: Acessando a rota dashboard
+2024-10-04 16:19:37,788 INFO: 127.0.0.1 - - [04/Oct/2024 16:19:37] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:19:37,832 INFO: 127.0.0.1 - - [04/Oct/2024 16:19:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:19:43,054 INFO: Carregando usuário com ID: 1
+2024-10-04 16:19:43,056 INFO: Acessando a rota dashboard
+2024-10-04 16:19:43,105 INFO: 127.0.0.1 - - [04/Oct/2024 16:19:43] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:19:43,145 INFO: 127.0.0.1 - - [04/Oct/2024 16:19:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:19:49,208 INFO: Carregando usuário com ID: 1
+2024-10-04 16:19:49,210 INFO: Acessando a rota dashboard
+2024-10-04 16:19:49,269 INFO: 127.0.0.1 - - [04/Oct/2024 16:19:49] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:19:49,325 INFO: 127.0.0.1 - - [04/Oct/2024 16:19:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:19:54,981 INFO: Carregando usuário com ID: 1
+2024-10-04 16:19:54,982 INFO: Acessando a rota dashboard
+2024-10-04 16:19:55,081 INFO: 127.0.0.1 - - [04/Oct/2024 16:19:55] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:19:55,151 INFO: 127.0.0.1 - - [04/Oct/2024 16:19:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:20:01,214 INFO: Carregando usuário com ID: 1
+2024-10-04 16:20:01,216 INFO: Acessando a rota dashboard
+2024-10-04 16:20:01,276 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:01] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:20:01,323 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:20:07,226 INFO: Carregando usuário com ID: 1
+2024-10-04 16:20:07,228 INFO: Acessando a rota dashboard
+2024-10-04 16:20:07,286 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:07] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:20:07,335 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:20:13,219 INFO: Carregando usuário com ID: 1
+2024-10-04 16:20:13,220 INFO: Acessando a rota dashboard
+2024-10-04 16:20:13,299 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:13] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:20:13,358 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:20:19,210 INFO: Carregando usuário com ID: 1
+2024-10-04 16:20:19,211 INFO: Acessando a rota dashboard
+2024-10-04 16:20:19,267 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:19] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:20:19,310 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:20:25,206 INFO: Carregando usuário com ID: 1
+2024-10-04 16:20:25,208 INFO: Acessando a rota dashboard
+2024-10-04 16:20:25,262 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:25] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:20:25,310 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:20:31,200 INFO: Carregando usuário com ID: 1
+2024-10-04 16:20:31,201 INFO: Acessando a rota dashboard
+2024-10-04 16:20:31,254 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:31] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:20:31,308 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:20:37,372 INFO: Carregando usuário com ID: 1
+2024-10-04 16:20:37,377 INFO: Acessando a rota dashboard
+2024-10-04 16:20:37,503 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:37] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:20:37,567 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:20:43,220 INFO: Carregando usuário com ID: 1
+2024-10-04 16:20:43,222 INFO: Acessando a rota dashboard
+2024-10-04 16:20:43,283 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:43] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:20:43,330 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:20:49,216 INFO: Carregando usuário com ID: 1
+2024-10-04 16:20:49,218 INFO: Acessando a rota dashboard
+2024-10-04 16:20:49,289 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:49] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:20:49,341 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:20:55,227 INFO: Carregando usuário com ID: 1
+2024-10-04 16:20:55,229 INFO: Acessando a rota dashboard
+2024-10-04 16:20:55,289 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:55] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:20:55,334 INFO: 127.0.0.1 - - [04/Oct/2024 16:20:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:21:01,215 INFO: Carregando usuário com ID: 1
+2024-10-04 16:21:01,217 INFO: Acessando a rota dashboard
+2024-10-04 16:21:01,288 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:01] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:21:01,369 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:21:06,637 INFO: Carregando usuário com ID: 1
+2024-10-04 16:21:06,640 INFO: Acessando a rota dashboard
+2024-10-04 16:21:06,703 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:06] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:21:06,750 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:21:12,216 INFO: Carregando usuário com ID: 1
+2024-10-04 16:21:12,218 INFO: Acessando a rota dashboard
+2024-10-04 16:21:12,271 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:12] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:21:12,312 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:21:18,228 INFO: Carregando usuário com ID: 1
+2024-10-04 16:21:18,230 INFO: Acessando a rota dashboard
+2024-10-04 16:21:18,281 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:18] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:21:18,325 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:21:24,208 INFO: Carregando usuário com ID: 1
+2024-10-04 16:21:24,209 INFO: Acessando a rota dashboard
+2024-10-04 16:21:24,261 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:24] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:21:24,297 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:21:30,223 INFO: Carregando usuário com ID: 1
+2024-10-04 16:21:30,224 INFO: Acessando a rota dashboard
+2024-10-04 16:21:30,275 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:30] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:21:30,318 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:21:36,219 INFO: Carregando usuário com ID: 1
+2024-10-04 16:21:36,221 INFO: Acessando a rota dashboard
+2024-10-04 16:21:36,276 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:36] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:21:36,319 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:21:42,206 INFO: Carregando usuário com ID: 1
+2024-10-04 16:21:42,207 INFO: Acessando a rota dashboard
+2024-10-04 16:21:42,259 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:42] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:21:42,300 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:21:48,220 INFO: Carregando usuário com ID: 1
+2024-10-04 16:21:48,222 INFO: Acessando a rota dashboard
+2024-10-04 16:21:48,277 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:48] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:21:48,327 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:21:54,214 INFO: Carregando usuário com ID: 1
+2024-10-04 16:21:54,215 INFO: Acessando a rota dashboard
+2024-10-04 16:21:54,271 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:54] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:21:54,315 INFO: 127.0.0.1 - - [04/Oct/2024 16:21:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:22:00,211 INFO: Carregando usuário com ID: 1
+2024-10-04 16:22:00,212 INFO: Acessando a rota dashboard
+2024-10-04 16:22:00,268 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:00] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:22:00,315 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:22:06,232 INFO: Carregando usuário com ID: 1
+2024-10-04 16:22:06,234 INFO: Acessando a rota dashboard
+2024-10-04 16:22:06,295 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:06] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:22:06,343 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:22:12,230 INFO: Carregando usuário com ID: 1
+2024-10-04 16:22:12,233 INFO: Acessando a rota dashboard
+2024-10-04 16:22:12,296 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:12] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:22:12,343 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:22:18,218 INFO: Carregando usuário com ID: 1
+2024-10-04 16:22:18,220 INFO: Acessando a rota dashboard
+2024-10-04 16:22:18,277 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:18] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:22:18,322 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:22:24,227 INFO: Carregando usuário com ID: 1
+2024-10-04 16:22:24,229 INFO: Acessando a rota dashboard
+2024-10-04 16:22:24,288 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:24] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:22:24,331 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:22:30,226 INFO: Carregando usuário com ID: 1
+2024-10-04 16:22:30,230 INFO: Acessando a rota dashboard
+2024-10-04 16:22:30,292 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:30] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:22:30,358 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:22:36,209 INFO: Carregando usuário com ID: 1
+2024-10-04 16:22:36,211 INFO: Acessando a rota dashboard
+2024-10-04 16:22:36,269 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:36] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:22:36,314 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:22:42,220 INFO: Carregando usuário com ID: 1
+2024-10-04 16:22:42,221 INFO: Acessando a rota dashboard
+2024-10-04 16:22:42,282 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:42] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:22:42,325 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:22:48,206 INFO: Carregando usuário com ID: 1
+2024-10-04 16:22:48,207 INFO: Acessando a rota dashboard
+2024-10-04 16:22:48,257 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:48] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:22:48,302 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:22:54,213 INFO: Carregando usuário com ID: 1
+2024-10-04 16:22:54,215 INFO: Acessando a rota dashboard
+2024-10-04 16:22:54,272 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:54] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:22:54,315 INFO: 127.0.0.1 - - [04/Oct/2024 16:22:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:23:00,225 INFO: Carregando usuário com ID: 1
+2024-10-04 16:23:00,228 INFO: Acessando a rota dashboard
+2024-10-04 16:23:00,285 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:00] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:23:00,320 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:23:06,231 INFO: Carregando usuário com ID: 1
+2024-10-04 16:23:06,232 INFO: Acessando a rota dashboard
+2024-10-04 16:23:06,291 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:06] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:23:06,336 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:23:12,225 INFO: Carregando usuário com ID: 1
+2024-10-04 16:23:12,228 INFO: Acessando a rota dashboard
+2024-10-04 16:23:12,287 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:12] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:23:12,331 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:23:18,201 INFO: Carregando usuário com ID: 1
+2024-10-04 16:23:18,202 INFO: Acessando a rota dashboard
+2024-10-04 16:23:18,254 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:18] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:23:18,301 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:23:24,223 INFO: Carregando usuário com ID: 1
+2024-10-04 16:23:24,225 INFO: Acessando a rota dashboard
+2024-10-04 16:23:24,286 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:24] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:23:24,331 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:23:30,209 INFO: Carregando usuário com ID: 1
+2024-10-04 16:23:30,210 INFO: Acessando a rota dashboard
+2024-10-04 16:23:30,264 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:30] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:23:30,318 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:23:36,222 INFO: Carregando usuário com ID: 1
+2024-10-04 16:23:36,224 INFO: Acessando a rota dashboard
+2024-10-04 16:23:36,288 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:36] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:23:36,340 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:23:42,216 INFO: Carregando usuário com ID: 1
+2024-10-04 16:23:42,219 INFO: Acessando a rota dashboard
+2024-10-04 16:23:42,273 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:42] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:23:42,313 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:23:48,212 INFO: Carregando usuário com ID: 1
+2024-10-04 16:23:48,215 INFO: Acessando a rota dashboard
+2024-10-04 16:23:48,276 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:48] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:23:48,315 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:23:54,217 INFO: Carregando usuário com ID: 1
+2024-10-04 16:23:54,219 INFO: Acessando a rota dashboard
+2024-10-04 16:23:54,283 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:54] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:23:54,339 INFO: 127.0.0.1 - - [04/Oct/2024 16:23:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:24:00,228 INFO: Carregando usuário com ID: 1
+2024-10-04 16:24:00,230 INFO: Acessando a rota dashboard
+2024-10-04 16:24:00,288 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:00] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:24:00,331 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:24:06,219 INFO: Carregando usuário com ID: 1
+2024-10-04 16:24:06,220 INFO: Acessando a rota dashboard
+2024-10-04 16:24:06,271 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:06] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:24:06,320 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:24:12,226 INFO: Carregando usuário com ID: 1
+2024-10-04 16:24:12,228 INFO: Acessando a rota dashboard
+2024-10-04 16:24:12,285 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:12] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:24:12,324 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:24:18,218 INFO: Carregando usuário com ID: 1
+2024-10-04 16:24:18,220 INFO: Acessando a rota dashboard
+2024-10-04 16:24:18,275 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:18] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:24:18,317 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:24:24,233 INFO: Carregando usuário com ID: 1
+2024-10-04 16:24:24,235 INFO: Acessando a rota dashboard
+2024-10-04 16:24:24,288 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:24] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:24:24,328 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:24:30,218 INFO: Carregando usuário com ID: 1
+2024-10-04 16:24:30,219 INFO: Acessando a rota dashboard
+2024-10-04 16:24:30,275 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:30] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:24:30,312 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:24:36,215 INFO: Carregando usuário com ID: 1
+2024-10-04 16:24:36,217 INFO: Acessando a rota dashboard
+2024-10-04 16:24:36,271 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:36] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:24:36,316 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:24:42,230 INFO: Carregando usuário com ID: 1
+2024-10-04 16:24:42,232 INFO: Acessando a rota dashboard
+2024-10-04 16:24:42,292 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:42] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:24:42,336 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:24:48,221 INFO: Carregando usuário com ID: 1
+2024-10-04 16:24:48,223 INFO: Acessando a rota dashboard
+2024-10-04 16:24:48,281 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:48] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:24:48,322 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:24:54,219 INFO: Carregando usuário com ID: 1
+2024-10-04 16:24:54,220 INFO: Acessando a rota dashboard
+2024-10-04 16:24:54,278 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:54] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:24:54,320 INFO: 127.0.0.1 - - [04/Oct/2024 16:24:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:25:00,210 INFO: Carregando usuário com ID: 1
+2024-10-04 16:25:00,211 INFO: Acessando a rota dashboard
+2024-10-04 16:25:00,261 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:00] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:25:00,310 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:25:06,228 INFO: Carregando usuário com ID: 1
+2024-10-04 16:25:06,231 INFO: Acessando a rota dashboard
+2024-10-04 16:25:06,299 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:06] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:25:06,348 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:25:12,238 INFO: Carregando usuário com ID: 1
+2024-10-04 16:25:12,240 INFO: Acessando a rota dashboard
+2024-10-04 16:25:12,300 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:12] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:25:12,346 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:25:18,209 INFO: Carregando usuário com ID: 1
+2024-10-04 16:25:18,210 INFO: Acessando a rota dashboard
+2024-10-04 16:25:18,270 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:18] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:25:18,330 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:25:24,227 INFO: Carregando usuário com ID: 1
+2024-10-04 16:25:24,229 INFO: Acessando a rota dashboard
+2024-10-04 16:25:24,288 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:24] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:25:24,336 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:25:30,236 INFO: Carregando usuário com ID: 1
+2024-10-04 16:25:30,238 INFO: Acessando a rota dashboard
+2024-10-04 16:25:30,294 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:30] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:25:30,343 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:25:36,229 INFO: Carregando usuário com ID: 1
+2024-10-04 16:25:36,230 INFO: Acessando a rota dashboard
+2024-10-04 16:25:36,286 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:36] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:25:36,324 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:25:42,214 INFO: Carregando usuário com ID: 1
+2024-10-04 16:25:42,216 INFO: Acessando a rota dashboard
+2024-10-04 16:25:42,277 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:42] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:25:42,326 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:25:48,216 INFO: Carregando usuário com ID: 1
+2024-10-04 16:25:48,217 INFO: Acessando a rota dashboard
+2024-10-04 16:25:48,273 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:48] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:25:48,319 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:25:54,205 INFO: Carregando usuário com ID: 1
+2024-10-04 16:25:54,207 INFO: Acessando a rota dashboard
+2024-10-04 16:25:54,257 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:54] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:25:54,313 INFO: 127.0.0.1 - - [04/Oct/2024 16:25:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:26:00,229 INFO: Carregando usuário com ID: 1
+2024-10-04 16:26:00,232 INFO: Acessando a rota dashboard
+2024-10-04 16:26:00,292 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:00] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:26:00,339 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:26:06,225 INFO: Carregando usuário com ID: 1
+2024-10-04 16:26:06,227 INFO: Acessando a rota dashboard
+2024-10-04 16:26:06,284 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:06] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:26:06,330 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:26:12,222 INFO: Carregando usuário com ID: 1
+2024-10-04 16:26:12,224 INFO: Acessando a rota dashboard
+2024-10-04 16:26:12,294 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:12] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:26:12,341 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:26:18,203 INFO: Carregando usuário com ID: 1
+2024-10-04 16:26:18,205 INFO: Acessando a rota dashboard
+2024-10-04 16:26:18,259 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:18] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:26:18,308 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:26:24,213 INFO: Carregando usuário com ID: 1
+2024-10-04 16:26:24,214 INFO: Acessando a rota dashboard
+2024-10-04 16:26:24,269 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:24] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:26:24,315 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:26:30,215 INFO: Carregando usuário com ID: 1
+2024-10-04 16:26:30,217 INFO: Acessando a rota dashboard
+2024-10-04 16:26:30,272 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:30] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:26:30,316 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:26:36,221 INFO: Carregando usuário com ID: 1
+2024-10-04 16:26:36,222 INFO: Acessando a rota dashboard
+2024-10-04 16:26:36,281 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:36] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:26:36,321 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:26:42,209 INFO: Carregando usuário com ID: 1
+2024-10-04 16:26:42,209 INFO: Acessando a rota dashboard
+2024-10-04 16:26:42,262 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:42] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:26:42,310 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:26:48,222 INFO: Carregando usuário com ID: 1
+2024-10-04 16:26:48,224 INFO: Acessando a rota dashboard
+2024-10-04 16:26:48,284 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:48] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:26:48,330 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:26:54,231 INFO: Carregando usuário com ID: 1
+2024-10-04 16:26:54,233 INFO: Acessando a rota dashboard
+2024-10-04 16:26:54,297 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:54] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:26:54,350 INFO: 127.0.0.1 - - [04/Oct/2024 16:26:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:27:00,209 INFO: Carregando usuário com ID: 1
+2024-10-04 16:27:00,211 INFO: Acessando a rota dashboard
+2024-10-04 16:27:00,267 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:00] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:27:00,305 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:27:06,215 INFO: Carregando usuário com ID: 1
+2024-10-04 16:27:06,216 INFO: Acessando a rota dashboard
+2024-10-04 16:27:06,274 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:06] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:27:06,325 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:27:12,225 INFO: Carregando usuário com ID: 1
+2024-10-04 16:27:12,227 INFO: Acessando a rota dashboard
+2024-10-04 16:27:12,312 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:12] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:27:12,388 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:27:18,208 INFO: Carregando usuário com ID: 1
+2024-10-04 16:27:18,210 INFO: Acessando a rota dashboard
+2024-10-04 16:27:18,320 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:18] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:27:18,414 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:27:23,763 INFO: Carregando usuário com ID: 1
+2024-10-04 16:27:23,764 INFO: Acessando a rota dashboard
+2024-10-04 16:27:23,835 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:23] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:27:23,871 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:27:29,215 INFO: Carregando usuário com ID: 1
+2024-10-04 16:27:29,217 INFO: Acessando a rota dashboard
+2024-10-04 16:27:29,285 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:29] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:27:29,341 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:27:35,215 INFO: Carregando usuário com ID: 1
+2024-10-04 16:27:35,217 INFO: Acessando a rota dashboard
+2024-10-04 16:27:35,304 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:35] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:27:35,354 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:27:41,205 INFO: Carregando usuário com ID: 1
+2024-10-04 16:27:41,206 INFO: Acessando a rota dashboard
+2024-10-04 16:27:41,273 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:41] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:27:41,324 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:27:47,207 INFO: Carregando usuário com ID: 1
+2024-10-04 16:27:47,210 INFO: Acessando a rota dashboard
+2024-10-04 16:27:47,270 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:47] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:27:47,322 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:27:53,204 INFO: Carregando usuário com ID: 1
+2024-10-04 16:27:53,206 INFO: Acessando a rota dashboard
+2024-10-04 16:27:53,289 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:53] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:27:53,353 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:27:59,202 INFO: Carregando usuário com ID: 1
+2024-10-04 16:27:59,204 INFO: Acessando a rota dashboard
+2024-10-04 16:27:59,293 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:59] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:27:59,346 INFO: 127.0.0.1 - - [04/Oct/2024 16:27:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:28:05,206 INFO: Carregando usuário com ID: 1
+2024-10-04 16:28:05,209 INFO: Acessando a rota dashboard
+2024-10-04 16:28:05,308 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:05] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:28:05,380 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:28:11,216 INFO: Carregando usuário com ID: 1
+2024-10-04 16:28:11,223 INFO: Acessando a rota dashboard
+2024-10-04 16:28:11,362 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:11] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:28:11,530 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:28:17,206 INFO: Carregando usuário com ID: 1
+2024-10-04 16:28:17,208 INFO: Acessando a rota dashboard
+2024-10-04 16:28:17,258 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:17] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:28:17,296 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:28:23,202 INFO: Carregando usuário com ID: 1
+2024-10-04 16:28:23,204 INFO: Acessando a rota dashboard
+2024-10-04 16:28:23,256 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:23] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:28:23,295 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:28:29,207 INFO: Carregando usuário com ID: 1
+2024-10-04 16:28:29,209 INFO: Acessando a rota dashboard
+2024-10-04 16:28:29,286 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:29] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:28:29,340 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:28:35,207 INFO: Carregando usuário com ID: 1
+2024-10-04 16:28:35,208 INFO: Acessando a rota dashboard
+2024-10-04 16:28:35,262 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:35] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:28:35,306 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:28:41,223 INFO: Carregando usuário com ID: 1
+2024-10-04 16:28:41,225 INFO: Acessando a rota dashboard
+2024-10-04 16:28:41,277 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:41] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:28:41,317 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:28:47,220 INFO: Carregando usuário com ID: 1
+2024-10-04 16:28:47,223 INFO: Acessando a rota dashboard
+2024-10-04 16:28:47,272 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:47] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:28:47,312 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:28:53,085 INFO: Carregando usuário com ID: 1
+2024-10-04 16:28:53,101 INFO: Acessando a rota dashboard
+2024-10-04 16:28:53,197 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:53] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:28:53,260 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:28:55,328 INFO: Carregando usuário com ID: 1
+2024-10-04 16:28:55,330 INFO: Acessando a rota dashboard
+2024-10-04 16:28:55,416 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:55] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:28:55,482 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:28:57,624 INFO: Carregando usuário com ID: 1
+2024-10-04 16:28:57,625 INFO: Acessando a rota dashboard
+2024-10-04 16:28:57,682 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:57] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:28:57,725 INFO: 127.0.0.1 - - [04/Oct/2024 16:28:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:29:02,922 INFO: Carregando usuário com ID: 1
+2024-10-04 16:29:02,924 INFO: Acessando a rota dashboard
+2024-10-04 16:29:02,990 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:02] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:29:03,059 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:29:08,370 INFO: Carregando usuário com ID: 1
+2024-10-04 16:29:08,372 INFO: Acessando a rota dashboard
+2024-10-04 16:29:08,434 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:08] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:29:08,486 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:29:13,679 INFO: Carregando usuário com ID: 1
+2024-10-04 16:29:13,680 INFO: Acessando a rota dashboard
+2024-10-04 16:29:13,733 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:13] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:29:13,774 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:29:19,214 INFO: Carregando usuário com ID: 1
+2024-10-04 16:29:19,218 INFO: Acessando a rota dashboard
+2024-10-04 16:29:19,284 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:19] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:29:19,337 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:29:25,214 INFO: Carregando usuário com ID: 1
+2024-10-04 16:29:25,216 INFO: Acessando a rota dashboard
+2024-10-04 16:29:25,295 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:25] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:29:25,346 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:29:31,208 INFO: Carregando usuário com ID: 1
+2024-10-04 16:29:31,209 INFO: Acessando a rota dashboard
+2024-10-04 16:29:31,268 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:31] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:29:31,320 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:29:37,215 INFO: Carregando usuário com ID: 1
+2024-10-04 16:29:37,216 INFO: Acessando a rota dashboard
+2024-10-04 16:29:37,271 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:37] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:29:37,327 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:29:43,224 INFO: Carregando usuário com ID: 1
+2024-10-04 16:29:43,228 INFO: Acessando a rota dashboard
+2024-10-04 16:29:43,309 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:43] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:29:43,381 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:29:49,207 INFO: Carregando usuário com ID: 1
+2024-10-04 16:29:49,209 INFO: Acessando a rota dashboard
+2024-10-04 16:29:49,278 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:49] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:29:49,348 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:29:55,223 INFO: Carregando usuário com ID: 1
+2024-10-04 16:29:55,225 INFO: Acessando a rota dashboard
+2024-10-04 16:29:55,296 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:55] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:29:55,354 INFO: 127.0.0.1 - - [04/Oct/2024 16:29:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:30:01,210 INFO: Carregando usuário com ID: 1
+2024-10-04 16:30:01,212 INFO: Acessando a rota dashboard
+2024-10-04 16:30:01,292 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:01] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:30:01,363 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:30:07,209 INFO: Carregando usuário com ID: 1
+2024-10-04 16:30:07,210 INFO: Acessando a rota dashboard
+2024-10-04 16:30:07,273 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:07] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:30:07,327 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:30:13,216 INFO: Carregando usuário com ID: 1
+2024-10-04 16:30:13,217 INFO: Acessando a rota dashboard
+2024-10-04 16:30:13,310 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:13] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:30:13,388 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:30:19,223 INFO: Carregando usuário com ID: 1
+2024-10-04 16:30:19,225 INFO: Acessando a rota dashboard
+2024-10-04 16:30:19,302 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:19] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:30:19,365 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:30:25,045 INFO: Carregando usuário com ID: 1
+2024-10-04 16:30:25,046 INFO: Acessando a rota dashboard
+2024-10-04 16:30:25,128 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:25] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:30:25,175 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:30:31,218 INFO: Carregando usuário com ID: 1
+2024-10-04 16:30:31,219 INFO: Acessando a rota dashboard
+2024-10-04 16:30:31,274 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:31] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:30:31,326 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:30:37,210 INFO: Carregando usuário com ID: 1
+2024-10-04 16:30:37,210 INFO: Acessando a rota dashboard
+2024-10-04 16:30:37,276 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:37] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:30:37,339 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:30:43,218 INFO: Carregando usuário com ID: 1
+2024-10-04 16:30:43,219 INFO: Acessando a rota dashboard
+2024-10-04 16:30:43,273 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:43] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:30:43,325 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:30:49,222 INFO: Carregando usuário com ID: 1
+2024-10-04 16:30:49,224 INFO: Acessando a rota dashboard
+2024-10-04 16:30:49,312 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:49] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:30:49,380 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:30:55,209 INFO: Carregando usuário com ID: 1
+2024-10-04 16:30:55,211 INFO: Acessando a rota dashboard
+2024-10-04 16:30:55,315 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:55] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:30:55,428 INFO: 127.0.0.1 - - [04/Oct/2024 16:30:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:31:01,232 INFO: Carregando usuário com ID: 1
+2024-10-04 16:31:01,233 INFO: Acessando a rota dashboard
+2024-10-04 16:31:01,385 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:01] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:31:01,463 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:31:07,220 INFO: Carregando usuário com ID: 1
+2024-10-04 16:31:07,223 INFO: Acessando a rota dashboard
+2024-10-04 16:31:07,302 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:07] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:31:07,363 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:31:13,219 INFO: Carregando usuário com ID: 1
+2024-10-04 16:31:13,220 INFO: Acessando a rota dashboard
+2024-10-04 16:31:13,292 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:13] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:31:13,373 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:31:19,208 INFO: Carregando usuário com ID: 1
+2024-10-04 16:31:19,209 INFO: Acessando a rota dashboard
+2024-10-04 16:31:19,286 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:19] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:31:19,343 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:31:25,210 INFO: Carregando usuário com ID: 1
+2024-10-04 16:31:25,211 INFO: Acessando a rota dashboard
+2024-10-04 16:31:25,263 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:25] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:31:25,307 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:31:31,213 INFO: Carregando usuário com ID: 1
+2024-10-04 16:31:31,215 INFO: Acessando a rota dashboard
+2024-10-04 16:31:31,298 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:31] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:31:31,383 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:31:37,217 INFO: Carregando usuário com ID: 1
+2024-10-04 16:31:37,218 INFO: Acessando a rota dashboard
+2024-10-04 16:31:37,298 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:37] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:31:37,356 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:31:43,212 INFO: Carregando usuário com ID: 1
+2024-10-04 16:31:43,214 INFO: Acessando a rota dashboard
+2024-10-04 16:31:43,292 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:43] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:31:43,360 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:31:49,223 INFO: Carregando usuário com ID: 1
+2024-10-04 16:31:49,224 INFO: Acessando a rota dashboard
+2024-10-04 16:31:49,306 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:49] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:31:49,358 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:31:55,224 INFO: Carregando usuário com ID: 1
+2024-10-04 16:31:55,225 INFO: Acessando a rota dashboard
+2024-10-04 16:31:55,276 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:55] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:31:55,316 INFO: 127.0.0.1 - - [04/Oct/2024 16:31:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:32:01,222 INFO: Carregando usuário com ID: 1
+2024-10-04 16:32:01,223 INFO: Acessando a rota dashboard
+2024-10-04 16:32:01,281 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:01] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:32:01,332 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:32:07,212 INFO: Carregando usuário com ID: 1
+2024-10-04 16:32:07,214 INFO: Acessando a rota dashboard
+2024-10-04 16:32:07,280 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:07] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:32:07,339 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:32:13,213 INFO: Carregando usuário com ID: 1
+2024-10-04 16:32:13,215 INFO: Acessando a rota dashboard
+2024-10-04 16:32:13,270 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:13] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:32:13,313 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:32:19,227 INFO: Carregando usuário com ID: 1
+2024-10-04 16:32:19,229 INFO: Acessando a rota dashboard
+2024-10-04 16:32:19,296 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:19] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:32:19,347 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:32:25,247 INFO: Carregando usuário com ID: 1
+2024-10-04 16:32:25,250 INFO: Acessando a rota dashboard
+2024-10-04 16:32:25,333 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:25] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:32:25,387 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:32:31,215 INFO: Carregando usuário com ID: 1
+2024-10-04 16:32:31,217 INFO: Acessando a rota dashboard
+2024-10-04 16:32:31,284 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:31] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:32:31,355 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:32:37,206 INFO: Carregando usuário com ID: 1
+2024-10-04 16:32:37,207 INFO: Acessando a rota dashboard
+2024-10-04 16:32:37,272 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:37] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:32:37,320 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:32:43,287 INFO: Carregando usuário com ID: 1
+2024-10-04 16:32:43,289 INFO: Acessando a rota dashboard
+2024-10-04 16:32:43,380 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:43] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:32:43,458 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:32:49,217 INFO: Carregando usuário com ID: 1
+2024-10-04 16:32:49,218 INFO: Acessando a rota dashboard
+2024-10-04 16:32:49,279 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:49] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:32:49,342 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:32:55,218 INFO: Carregando usuário com ID: 1
+2024-10-04 16:32:55,219 INFO: Acessando a rota dashboard
+2024-10-04 16:32:55,287 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:55] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:32:55,372 INFO: 127.0.0.1 - - [04/Oct/2024 16:32:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:33:02,209 INFO: Carregando usuário com ID: 1
+2024-10-04 16:33:02,211 INFO: Acessando a rota dashboard
+2024-10-04 16:33:02,264 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:02] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:33:02,312 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:33:08,212 INFO: Carregando usuário com ID: 1
+2024-10-04 16:33:08,212 INFO: Acessando a rota dashboard
+2024-10-04 16:33:08,268 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:08] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:33:08,317 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:33:14,216 INFO: Carregando usuário com ID: 1
+2024-10-04 16:33:14,217 INFO: Acessando a rota dashboard
+2024-10-04 16:33:14,278 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:14] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:33:14,334 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:33:20,218 INFO: Carregando usuário com ID: 1
+2024-10-04 16:33:20,219 INFO: Acessando a rota dashboard
+2024-10-04 16:33:20,321 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:20] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:33:20,368 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:33:26,223 INFO: Carregando usuário com ID: 1
+2024-10-04 16:33:26,226 INFO: Acessando a rota dashboard
+2024-10-04 16:33:26,281 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:26] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:33:26,330 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:33:32,221 INFO: Carregando usuário com ID: 1
+2024-10-04 16:33:32,223 INFO: Acessando a rota dashboard
+2024-10-04 16:33:32,280 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:32] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:33:32,334 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:33:38,208 INFO: Carregando usuário com ID: 1
+2024-10-04 16:33:38,208 INFO: Acessando a rota dashboard
+2024-10-04 16:33:38,257 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:38] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:33:38,309 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:33:44,226 INFO: Carregando usuário com ID: 1
+2024-10-04 16:33:44,229 INFO: Acessando a rota dashboard
+2024-10-04 16:33:44,286 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:44] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:33:44,340 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:33:50,224 INFO: Carregando usuário com ID: 1
+2024-10-04 16:33:50,227 INFO: Acessando a rota dashboard
+2024-10-04 16:33:50,312 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:50] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:33:50,379 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:33:56,236 INFO: Carregando usuário com ID: 1
+2024-10-04 16:33:56,242 INFO: Acessando a rota dashboard
+2024-10-04 16:33:56,315 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:56] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:33:56,365 INFO: 127.0.0.1 - - [04/Oct/2024 16:33:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:34:02,221 INFO: Carregando usuário com ID: 1
+2024-10-04 16:34:02,222 INFO: Acessando a rota dashboard
+2024-10-04 16:34:02,278 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:02] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:34:02,329 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:34:08,206 INFO: Carregando usuário com ID: 1
+2024-10-04 16:34:08,207 INFO: Acessando a rota dashboard
+2024-10-04 16:34:08,259 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:08] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:34:08,307 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:34:14,212 INFO: Carregando usuário com ID: 1
+2024-10-04 16:34:14,214 INFO: Acessando a rota dashboard
+2024-10-04 16:34:14,267 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:14] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:34:14,319 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:34:20,222 INFO: Carregando usuário com ID: 1
+2024-10-04 16:34:20,224 INFO: Acessando a rota dashboard
+2024-10-04 16:34:20,279 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:20] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:34:20,329 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:34:26,213 INFO: Carregando usuário com ID: 1
+2024-10-04 16:34:26,217 INFO: Acessando a rota dashboard
+2024-10-04 16:34:26,332 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:26] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:34:26,408 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:34:32,217 INFO: Carregando usuário com ID: 1
+2024-10-04 16:34:32,218 INFO: Acessando a rota dashboard
+2024-10-04 16:34:32,268 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:32] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:34:32,315 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:34:38,211 INFO: Carregando usuário com ID: 1
+2024-10-04 16:34:38,213 INFO: Acessando a rota dashboard
+2024-10-04 16:34:38,274 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:38] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:34:38,329 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:34:44,221 INFO: Carregando usuário com ID: 1
+2024-10-04 16:34:44,223 INFO: Acessando a rota dashboard
+2024-10-04 16:34:44,273 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:44] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:34:44,315 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:34:50,202 INFO: Carregando usuário com ID: 1
+2024-10-04 16:34:50,204 INFO: Acessando a rota dashboard
+2024-10-04 16:34:50,256 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:50] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:34:50,306 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:34:56,223 INFO: Carregando usuário com ID: 1
+2024-10-04 16:34:56,225 INFO: Acessando a rota dashboard
+2024-10-04 16:34:56,284 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:56] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:34:56,330 INFO: 127.0.0.1 - - [04/Oct/2024 16:34:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:35:02,208 INFO: Carregando usuário com ID: 1
+2024-10-04 16:35:02,210 INFO: Acessando a rota dashboard
+2024-10-04 16:35:02,265 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:02] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:35:02,310 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:35:08,231 INFO: Carregando usuário com ID: 1
+2024-10-04 16:35:08,234 INFO: Acessando a rota dashboard
+2024-10-04 16:35:08,288 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:08] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:35:08,336 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:35:14,244 INFO: Carregando usuário com ID: 1
+2024-10-04 16:35:14,248 INFO: Acessando a rota dashboard
+2024-10-04 16:35:14,325 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:14] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:35:14,376 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:35:20,206 INFO: Carregando usuário com ID: 1
+2024-10-04 16:35:20,208 INFO: Acessando a rota dashboard
+2024-10-04 16:35:20,257 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:20] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:35:20,305 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:35:26,201 INFO: Carregando usuário com ID: 1
+2024-10-04 16:35:26,202 INFO: Acessando a rota dashboard
+2024-10-04 16:35:26,250 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:26] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:35:26,298 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:35:32,229 INFO: Carregando usuário com ID: 1
+2024-10-04 16:35:32,232 INFO: Acessando a rota dashboard
+2024-10-04 16:35:32,288 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:32] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:35:32,337 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:35:38,223 INFO: Carregando usuário com ID: 1
+2024-10-04 16:35:38,227 INFO: Acessando a rota dashboard
+2024-10-04 16:35:38,288 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:38] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:35:38,337 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:35:44,212 INFO: Carregando usuário com ID: 1
+2024-10-04 16:35:44,213 INFO: Acessando a rota dashboard
+2024-10-04 16:35:44,266 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:44] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:35:44,307 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:35:50,220 INFO: Carregando usuário com ID: 1
+2024-10-04 16:35:50,222 INFO: Acessando a rota dashboard
+2024-10-04 16:35:50,289 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:50] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:35:50,340 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:35:56,212 INFO: Carregando usuário com ID: 1
+2024-10-04 16:35:56,213 INFO: Acessando a rota dashboard
+2024-10-04 16:35:56,270 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:56] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:35:56,318 INFO: 127.0.0.1 - - [04/Oct/2024 16:35:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:36:02,222 INFO: Carregando usuário com ID: 1
+2024-10-04 16:36:02,225 INFO: Acessando a rota dashboard
+2024-10-04 16:36:02,276 INFO: 127.0.0.1 - - [04/Oct/2024 16:36:02] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:36:02,316 INFO: 127.0.0.1 - - [04/Oct/2024 16:36:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:36:08,211 INFO: Carregando usuário com ID: 1
+2024-10-04 16:36:08,212 INFO: Acessando a rota dashboard
+2024-10-04 16:36:08,271 INFO: 127.0.0.1 - - [04/Oct/2024 16:36:08] "GET /dashboard?start_date=2024-10-30&end_date=2024-10-04 HTTP/1.1" 200 -
+2024-10-04 16:36:08,324 INFO: 127.0.0.1 - - [04/Oct/2024 16:36:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:36:10,262 INFO:  * Detected change in 'D:\\eng_soft\\be\\aps1\\Flask\\app.py', reloading
+2024-10-04 16:36:10,452 INFO:  * Restarting with stat
+2024-10-04 16:36:30,852 INFO: Tabelas criadas no banco de dados.
+2024-10-04 16:36:30,852 INFO: Iniciando o servidor Flask...
+2024-10-04 16:36:30,879 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-04 16:36:30,879 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 16:36:30,881 INFO:  * Restarting with stat
+2024-10-04 16:36:31,852 INFO: Tabelas criadas no banco de dados.
+2024-10-04 16:36:31,852 INFO: Iniciando o servidor Flask...
+2024-10-04 16:36:31,880 WARNING:  * Debugger is active!
+2024-10-04 16:36:31,890 INFO:  * Debugger PIN: 454-801-709
+2024-10-04 16:36:44,008 INFO: Carregando usuário com ID: 1
+2024-10-04 16:36:44,026 INFO: Acessando a rota index
+2024-10-04 16:36:44,052 INFO: 127.0.0.1 - - [04/Oct/2024 16:36:44] "GET / HTTP/1.1" 200 -
+2024-10-04 16:36:44,171 INFO: 127.0.0.1 - - [04/Oct/2024 16:36:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:36:44,184 INFO: 127.0.0.1 - - [04/Oct/2024 16:36:44] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 16:36:46,355 INFO: Carregando usuário com ID: 1
+2024-10-04 16:36:46,357 INFO: Acessando a rota dashboard
+2024-10-04 16:36:47,104 INFO: 127.0.0.1 - - [04/Oct/2024 16:36:47] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 16:36:47,148 INFO: 127.0.0.1 - - [04/Oct/2024 16:36:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:36:52,978 INFO: Carregando usuário com ID: 1
+2024-10-04 16:36:52,980 INFO: Acessando a rota dashboard
+2024-10-04 16:36:53,081 INFO: 127.0.0.1 - - [04/Oct/2024 16:36:53] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 16:36:53,128 INFO: 127.0.0.1 - - [04/Oct/2024 16:36:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:36:58,629 INFO: Carregando usuário com ID: 1
+2024-10-04 16:36:58,630 INFO: Acessando a rota dashboard
+2024-10-04 16:36:58,716 INFO: 127.0.0.1 - - [04/Oct/2024 16:36:58] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 16:36:58,767 INFO: 127.0.0.1 - - [04/Oct/2024 16:36:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:37:04,184 INFO: Carregando usuário com ID: 1
+2024-10-04 16:37:04,186 INFO: Acessando a rota dashboard
+2024-10-04 16:37:04,275 INFO: 127.0.0.1 - - [04/Oct/2024 16:37:04] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 16:37:04,329 INFO: 127.0.0.1 - - [04/Oct/2024 16:37:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:37:09,773 INFO: Carregando usuário com ID: 1
+2024-10-04 16:37:09,773 INFO: Acessando a rota dashboard
+2024-10-04 16:37:09,895 INFO: 127.0.0.1 - - [04/Oct/2024 16:37:09] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 16:37:09,968 INFO: 127.0.0.1 - - [04/Oct/2024 16:37:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:37:15,451 INFO: Carregando usuário com ID: 1
+2024-10-04 16:37:15,454 INFO: Acessando a rota dashboard
+2024-10-04 16:37:15,621 INFO: 127.0.0.1 - - [04/Oct/2024 16:37:15] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 16:37:15,697 INFO: 127.0.0.1 - - [04/Oct/2024 16:37:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:37:21,198 INFO: Carregando usuário com ID: 1
+2024-10-04 16:37:21,199 INFO: Acessando a rota dashboard
+2024-10-04 16:37:21,377 INFO: 127.0.0.1 - - [04/Oct/2024 16:37:21] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 16:37:21,463 INFO: 127.0.0.1 - - [04/Oct/2024 16:37:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:37:26,997 INFO: Carregando usuário com ID: 1
+2024-10-04 16:37:26,997 INFO: Acessando a rota dashboard
+2024-10-04 16:37:27,137 INFO: 127.0.0.1 - - [04/Oct/2024 16:37:27] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 16:37:27,183 INFO: 127.0.0.1 - - [04/Oct/2024 16:37:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 16:37:32,677 INFO: Carregando usuário com ID: 1
+2024-10-04 16:37:32,678 INFO: Acessando a rota dashboard
+2024-10-04 16:37:32,762 INFO: 127.0.0.1 - - [04/Oct/2024 16:37:32] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 16:37:32,806 INFO: 127.0.0.1 - - [04/Oct/2024 16:37:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
