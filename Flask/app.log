@@ -1,0 +1,350 @@
+2024-10-04 09:58:16,605 INFO: Tabelas criadas no banco de dados.
+2024-10-04 09:58:16,605 INFO: Iniciando o servidor Flask...
+2024-10-04 09:58:16,644 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-04 09:58:16,644 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 09:58:16,646 INFO:  * Restarting with stat
+2024-10-04 09:58:17,327 INFO: Tabelas criadas no banco de dados.
+2024-10-04 09:58:17,327 INFO: Iniciando o servidor Flask...
+2024-10-04 09:58:17,338 WARNING:  * Debugger is active!
+2024-10-04 09:58:17,341 INFO:  * Debugger PIN: 454-801-709
+2024-10-04 09:58:20,944 INFO: 127.0.0.1 - - [04/Oct/2024 09:58:20] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-04 09:58:20,996 INFO: Acessando a rota de login
+2024-10-04 09:58:21,008 INFO: 127.0.0.1 - - [04/Oct/2024 09:58:21] "GET /login?next=/ HTTP/1.1" 200 -
+2024-10-04 09:58:21,323 INFO: 127.0.0.1 - - [04/Oct/2024 09:58:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-04 09:58:27,296 INFO: Acessando a rota de login
+2024-10-04 09:58:27,413 INFO: Usuário porto logado com sucesso
+2024-10-04 09:58:27,415 INFO: 127.0.0.1 - - [04/Oct/2024 09:58:27] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+2024-10-04 09:58:27,422 INFO: Carregando usuário com ID: 1
+2024-10-04 09:58:27,425 INFO: Acessando a rota index
+2024-10-04 09:58:27,450 INFO: 127.0.0.1 - - [04/Oct/2024 09:58:27] "GET / HTTP/1.1" 200 -
+2024-10-04 09:58:27,552 INFO: 127.0.0.1 - - [04/Oct/2024 09:58:27] "GET /static/logo.png HTTP/1.1" 200 -
+2024-10-04 09:58:38,077 INFO: Carregando usuário com ID: 1
+2024-10-04 09:58:38,078 INFO: Acessando a rota dashboard
+2024-10-04 09:58:39,230 INFO: 127.0.0.1 - - [04/Oct/2024 09:58:39] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 10:00:13,308 INFO: Carregando usuário com ID: 1
+2024-10-04 10:00:13,312 INFO: Acessando a rota dashboard
+2024-10-04 10:00:13,383 INFO: 127.0.0.1 - - [04/Oct/2024 10:00:13] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 10:05:06,046 INFO: Tabelas criadas no banco de dados.
+2024-10-04 10:05:06,047 INFO: Iniciando o servidor Flask...
+2024-10-04 10:05:06,097 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-04 10:05:06,098 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 10:05:06,104 INFO:  * Restarting with stat
+2024-10-04 10:05:07,370 INFO: Tabelas criadas no banco de dados.
+2024-10-04 10:05:07,370 INFO: Iniciando o servidor Flask...
+2024-10-04 10:05:07,382 WARNING:  * Debugger is active!
+2024-10-04 10:05:07,392 INFO:  * Debugger PIN: 454-801-709
+2024-10-04 10:05:10,788 INFO: Carregando usuário com ID: 1
+2024-10-04 10:05:10,824 INFO: Acessando a rota index
+2024-10-04 10:05:10,903 INFO: 127.0.0.1 - - [04/Oct/2024 10:05:10] "GET / HTTP/1.1" 200 -
+2024-10-04 10:05:11,232 INFO: 127.0.0.1 - - [04/Oct/2024 10:05:11] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 10:05:50,864 INFO: Carregando usuário com ID: 1
+2024-10-04 10:05:50,865 INFO: Usuário porto deslogado
+2024-10-04 10:05:50,867 INFO: 127.0.0.1 - - [04/Oct/2024 10:05:50] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2024-10-04 10:05:50,878 INFO: Acessando a rota de login
+2024-10-04 10:05:50,901 INFO: 127.0.0.1 - - [04/Oct/2024 10:05:50] "GET /login HTTP/1.1" 200 -
+2024-10-04 10:05:59,925 INFO: 127.0.0.1 - - [04/Oct/2024 10:05:59] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-04 10:05:59,966 INFO: Acessando a rota de login
+2024-10-04 10:05:59,972 INFO: 127.0.0.1 - - [04/Oct/2024 10:05:59] "GET /login?next=/ HTTP/1.1" 200 -
+2024-10-04 10:25:35,646 INFO: 127.0.0.1 - - [04/Oct/2024 10:25:35] "[32mGET / HTTP/1.1[0m" 302 -
+2024-10-04 10:25:35,663 INFO: Acessando a rota de login
+2024-10-04 10:25:35,669 INFO: 127.0.0.1 - - [04/Oct/2024 10:25:35] "GET /login?next=/ HTTP/1.1" 200 -
+2024-10-04 10:25:41,634 INFO: Acessando a rota de login
+2024-10-04 10:25:41,753 INFO: Usuário porto logado com sucesso
+2024-10-04 10:25:41,756 INFO: 127.0.0.1 - - [04/Oct/2024 10:25:41] "[32mPOST /login?next=/ HTTP/1.1[0m" 302 -
+2024-10-04 10:25:41,764 INFO: Carregando usuário com ID: 1
+2024-10-04 10:25:41,765 INFO: Acessando a rota index
+2024-10-04 10:25:41,766 INFO: 127.0.0.1 - - [04/Oct/2024 10:25:41] "GET / HTTP/1.1" 200 -
+2024-10-04 10:25:41,815 INFO: 127.0.0.1 - - [04/Oct/2024 10:25:41] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 10:25:46,789 INFO: Carregando usuário com ID: 1
+2024-10-04 10:25:46,790 INFO: Acessando a rota dashboard
+2024-10-04 10:25:47,591 INFO: 127.0.0.1 - - [04/Oct/2024 10:25:47] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 10:36:02,668 INFO: Tabelas criadas no banco de dados.
+2024-10-04 10:36:02,668 INFO: Iniciando o servidor Flask...
+2024-10-04 10:36:02,709 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-04 10:36:02,710 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 10:36:02,715 INFO:  * Restarting with stat
+2024-10-04 10:36:03,548 INFO: Tabelas criadas no banco de dados.
+2024-10-04 10:36:03,549 INFO: Iniciando o servidor Flask...
+2024-10-04 10:36:03,557 WARNING:  * Debugger is active!
+2024-10-04 10:36:03,560 INFO:  * Debugger PIN: 454-801-709
+2024-10-04 10:36:09,995 INFO: Carregando usuário com ID: 1
+2024-10-04 10:36:10,007 INFO: Acessando a rota index
+2024-10-04 10:36:10,025 INFO: 127.0.0.1 - - [04/Oct/2024 10:36:10] "GET / HTTP/1.1" 200 -
+2024-10-04 10:36:10,153 INFO: 127.0.0.1 - - [04/Oct/2024 10:36:10] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 10:36:12,573 INFO: Carregando usuário com ID: 1
+2024-10-04 10:36:12,573 INFO: Acessando a rota dashboard
+2024-10-04 10:36:13,363 INFO: 127.0.0.1 - - [04/Oct/2024 10:36:13] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 10:36:16,826 INFO: Carregando usuário com ID: 1
+2024-10-04 10:36:16,828 INFO: Exportando dados para CSV
+2024-10-04 10:36:16,834 INFO: 127.0.0.1 - - [04/Oct/2024 10:36:16] "GET /export_csv HTTP/1.1" 200 -
+2024-10-04 10:44:46,448 INFO: Tabelas criadas no banco de dados.
+2024-10-04 10:44:46,448 INFO: Iniciando o servidor Flask...
+2024-10-04 10:44:46,478 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-04 10:44:46,478 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 10:44:46,479 INFO:  * Restarting with stat
+2024-10-04 10:44:47,470 INFO: Tabelas criadas no banco de dados.
+2024-10-04 10:44:47,470 INFO: Iniciando o servidor Flask...
+2024-10-04 10:44:47,482 WARNING:  * Debugger is active!
+2024-10-04 10:44:47,490 INFO:  * Debugger PIN: 454-801-709
+2024-10-04 10:44:51,613 INFO: Carregando usuário com ID: 1
+2024-10-04 10:44:51,623 INFO: Acessando a rota index
+2024-10-04 10:44:51,643 INFO: 127.0.0.1 - - [04/Oct/2024 10:44:51] "GET / HTTP/1.1" 200 -
+2024-10-04 10:44:51,802 INFO: 127.0.0.1 - - [04/Oct/2024 10:44:51] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 10:44:51,806 INFO: 127.0.0.1 - - [04/Oct/2024 10:44:51] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 10:45:06,689 INFO: Carregando usuário com ID: 1
+2024-10-04 10:45:06,691 INFO: Acessando a rota index
+2024-10-04 10:45:06,693 INFO: 127.0.0.1 - - [04/Oct/2024 10:45:06] "GET / HTTP/1.1" 200 -
+2024-10-04 10:45:06,739 INFO: 127.0.0.1 - - [04/Oct/2024 10:45:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 10:45:06,740 INFO: 127.0.0.1 - - [04/Oct/2024 10:45:06] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 10:45:16,646 INFO: Carregando usuário com ID: 1
+2024-10-04 10:45:16,652 INFO: Acessando a rota index
+2024-10-04 10:45:16,656 INFO: 127.0.0.1 - - [04/Oct/2024 10:45:16] "GET / HTTP/1.1" 200 -
+2024-10-04 10:45:16,729 INFO: 127.0.0.1 - - [04/Oct/2024 10:45:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 10:45:16,752 INFO: 127.0.0.1 - - [04/Oct/2024 10:45:16] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 10:46:58,099 INFO: Tabelas criadas no banco de dados.
+2024-10-04 10:46:58,100 INFO: Iniciando o servidor Flask...
+2024-10-04 10:46:58,144 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-04 10:46:58,144 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 10:46:58,147 INFO:  * Restarting with stat
+2024-10-04 10:46:58,898 INFO: Tabelas criadas no banco de dados.
+2024-10-04 10:46:58,898 INFO: Iniciando o servidor Flask...
+2024-10-04 10:46:58,908 WARNING:  * Debugger is active!
+2024-10-04 10:46:58,912 INFO:  * Debugger PIN: 454-801-709
+2024-10-04 10:47:02,621 INFO: Carregando usuário com ID: 1
+2024-10-04 10:47:02,641 INFO: Acessando a rota index
+2024-10-04 10:47:02,660 INFO: 127.0.0.1 - - [04/Oct/2024 10:47:02] "GET / HTTP/1.1" 200 -
+2024-10-04 10:47:02,788 INFO: 127.0.0.1 - - [04/Oct/2024 10:47:02] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 10:47:02,793 INFO: 127.0.0.1 - - [04/Oct/2024 10:47:02] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 10:47:05,686 INFO: Carregando usuário com ID: 1
+2024-10-04 10:47:05,688 INFO: Acessando a rota dashboard
+2024-10-04 10:47:06,405 INFO: 127.0.0.1 - - [04/Oct/2024 10:47:06] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 10:47:06,452 INFO: 127.0.0.1 - - [04/Oct/2024 10:47:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 10:47:17,743 INFO: Carregando usuário com ID: 1
+2024-10-04 10:47:17,745 INFO: Exportando dados para CSV
+2024-10-04 10:47:17,753 INFO: 127.0.0.1 - - [04/Oct/2024 10:47:17] "GET /export_csv HTTP/1.1" 200 -
+2024-10-04 10:55:18,436 INFO: Carregando usuário com ID: 1
+2024-10-04 10:55:18,439 INFO: Acessando a rota dashboard
+2024-10-04 10:55:18,509 INFO: 127.0.0.1 - - [04/Oct/2024 10:55:18] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 10:55:18,553 INFO: 127.0.0.1 - - [04/Oct/2024 10:55:18] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 10:55:53,664 INFO: Tabelas criadas no banco de dados.
+2024-10-04 10:55:53,664 INFO: Iniciando o servidor Flask...
+2024-10-04 10:55:53,684 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-04 10:55:53,684 INFO: [33mPress CTRL+C to quit[0m
+2024-10-04 10:55:53,687 INFO:  * Restarting with stat
+2024-10-04 10:55:54,407 INFO: Tabelas criadas no banco de dados.
+2024-10-04 10:55:54,408 INFO: Iniciando o servidor Flask...
+2024-10-04 10:55:54,417 WARNING:  * Debugger is active!
+2024-10-04 10:55:54,420 INFO:  * Debugger PIN: 454-801-709
+2024-10-04 10:56:03,232 INFO: Carregando usuário com ID: 1
+2024-10-04 10:56:03,255 INFO: Acessando a rota index
+2024-10-04 10:56:03,277 INFO: 127.0.0.1 - - [04/Oct/2024 10:56:03] "GET / HTTP/1.1" 200 -
+2024-10-04 10:56:03,433 INFO: 127.0.0.1 - - [04/Oct/2024 10:56:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 10:56:03,443 INFO: 127.0.0.1 - - [04/Oct/2024 10:56:03] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 10:56:05,980 INFO: Carregando usuário com ID: 1
+2024-10-04 10:56:05,981 INFO: Acessando a rota dashboard
+2024-10-04 10:56:06,721 INFO: 127.0.0.1 - - [04/Oct/2024 10:56:06] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 10:56:06,761 INFO: 127.0.0.1 - - [04/Oct/2024 10:56:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 10:59:59,257 INFO: Carregando usuário com ID: 1
+2024-10-04 10:59:59,269 INFO: Acessando a rota index
+2024-10-04 10:59:59,281 INFO: 127.0.0.1 - - [04/Oct/2024 10:59:59] "GET / HTTP/1.1" 200 -
+2024-10-04 10:59:59,357 INFO: 127.0.0.1 - - [04/Oct/2024 10:59:59] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 10:59:59,363 INFO: 127.0.0.1 - - [04/Oct/2024 10:59:59] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 11:00:01,259 INFO: Carregando usuário com ID: 1
+2024-10-04 11:00:01,260 INFO: Acessando a rota index
+2024-10-04 11:00:01,263 INFO: 127.0.0.1 - - [04/Oct/2024 11:00:01] "GET / HTTP/1.1" 200 -
+2024-10-04 11:00:01,314 INFO: 127.0.0.1 - - [04/Oct/2024 11:00:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 11:00:01,317 INFO: 127.0.0.1 - - [04/Oct/2024 11:00:01] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 11:00:47,041 INFO: Carregando usuário com ID: 1
+2024-10-04 11:00:47,049 INFO: Acessando a rota index
+2024-10-04 11:00:47,050 INFO: 127.0.0.1 - - [04/Oct/2024 11:00:47] "GET / HTTP/1.1" 200 -
+2024-10-04 11:00:47,123 INFO: 127.0.0.1 - - [04/Oct/2024 11:00:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 11:00:47,124 INFO: 127.0.0.1 - - [04/Oct/2024 11:00:47] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 11:00:49,113 INFO: Carregando usuário com ID: 1
+2024-10-04 11:00:49,115 INFO: Acessando a rota index
+2024-10-04 11:00:49,116 INFO: 127.0.0.1 - - [04/Oct/2024 11:00:49] "GET / HTTP/1.1" 200 -
+2024-10-04 11:00:49,149 INFO: 127.0.0.1 - - [04/Oct/2024 11:00:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 11:00:49,158 INFO: 127.0.0.1 - - [04/Oct/2024 11:00:49] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 11:01:14,018 INFO: Carregando usuário com ID: 1
+2024-10-04 11:01:14,020 INFO: Acessando a rota dashboard
+2024-10-04 11:01:14,093 INFO: 127.0.0.1 - - [04/Oct/2024 11:01:14] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 11:01:14,137 INFO: 127.0.0.1 - - [04/Oct/2024 11:01:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 11:03:28,411 INFO: Carregando usuário com ID: 1
+2024-10-04 11:03:28,414 INFO: Acessando a rota dashboard
+2024-10-04 11:03:28,497 INFO: 127.0.0.1 - - [04/Oct/2024 11:03:28] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 11:03:28,539 INFO: 127.0.0.1 - - [04/Oct/2024 11:03:28] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 11:05:05,928 INFO: Carregando usuário com ID: 1
+2024-10-04 11:05:05,931 INFO: Acessando a rota index
+2024-10-04 11:05:05,932 INFO: 127.0.0.1 - - [04/Oct/2024 11:05:05] "GET / HTTP/1.1" 200 -
+2024-10-04 11:05:05,982 INFO: 127.0.0.1 - - [04/Oct/2024 11:05:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 11:05:05,993 INFO: 127.0.0.1 - - [04/Oct/2024 11:05:05] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 11:06:17,072 INFO: Carregando usuário com ID: 1
+2024-10-04 11:06:17,073 INFO: Acessando a rota dashboard
+2024-10-04 11:06:17,151 INFO: 127.0.0.1 - - [04/Oct/2024 11:06:17] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 11:06:17,201 INFO: 127.0.0.1 - - [04/Oct/2024 11:06:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 11:08:24,401 INFO: Carregando usuário com ID: 1
+2024-10-04 11:08:24,403 INFO: Acessando a rota dashboard
+2024-10-04 11:08:24,470 INFO: 127.0.0.1 - - [04/Oct/2024 11:08:24] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 11:08:24,508 INFO: 127.0.0.1 - - [04/Oct/2024 11:08:24] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 11:09:02,342 INFO: Carregando usuário com ID: 1
+2024-10-04 11:09:02,343 INFO: Acessando a rota dashboard
+2024-10-04 11:09:02,404 INFO: 127.0.0.1 - - [04/Oct/2024 11:09:02] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 11:09:02,445 INFO: 127.0.0.1 - - [04/Oct/2024 11:09:02] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 11:09:07,912 INFO: Carregando usuário com ID: 1
+2024-10-04 11:09:07,913 INFO: Acessando a rota dashboard
+2024-10-04 11:09:07,983 INFO: 127.0.0.1 - - [04/Oct/2024 11:09:07] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 11:09:08,028 INFO: 127.0.0.1 - - [04/Oct/2024 11:09:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 11:09:24,714 INFO: Carregando usuário com ID: 1
+2024-10-04 11:09:24,715 INFO: Acessando a rota dashboard
+2024-10-04 11:09:24,777 INFO: 127.0.0.1 - - [04/Oct/2024 11:09:24] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 11:09:24,826 INFO: 127.0.0.1 - - [04/Oct/2024 11:09:24] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 11:10:41,962 INFO: Carregando usuário com ID: 1
+2024-10-04 11:10:41,963 INFO: Acessando a rota index
+2024-10-04 11:10:41,965 INFO: 127.0.0.1 - - [04/Oct/2024 11:10:41] "GET / HTTP/1.1" 200 -
+2024-10-04 11:10:42,023 INFO: 127.0.0.1 - - [04/Oct/2024 11:10:42] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 11:10:42,026 INFO: 127.0.0.1 - - [04/Oct/2024 11:10:42] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 11:11:28,225 INFO: Carregando usuário com ID: 1
+2024-10-04 11:11:28,225 INFO: Acessando a rota index
+2024-10-04 11:11:28,227 INFO: 127.0.0.1 - - [04/Oct/2024 11:11:28] "GET / HTTP/1.1" 200 -
+2024-10-04 11:11:28,278 INFO: 127.0.0.1 - - [04/Oct/2024 11:11:28] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 11:11:28,281 INFO: 127.0.0.1 - - [04/Oct/2024 11:11:28] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 11:11:30,127 INFO: Carregando usuário com ID: 1
+2024-10-04 11:11:30,129 INFO: Acessando a rota index
+2024-10-04 11:11:30,130 INFO: 127.0.0.1 - - [04/Oct/2024 11:11:30] "GET / HTTP/1.1" 200 -
+2024-10-04 11:11:30,166 INFO: 127.0.0.1 - - [04/Oct/2024 11:11:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 11:11:30,176 INFO: 127.0.0.1 - - [04/Oct/2024 11:11:30] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 11:11:32,093 INFO: Carregando usuário com ID: 1
+2024-10-04 11:11:32,094 INFO: Acessando a rota dashboard
+2024-10-04 11:11:32,190 INFO: 127.0.0.1 - - [04/Oct/2024 11:11:32] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 11:11:32,234 INFO: 127.0.0.1 - - [04/Oct/2024 11:11:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 11:13:34,500 INFO: Carregando usuário com ID: 1
+2024-10-04 11:13:34,502 INFO: Acessando a rota dashboard
+2024-10-04 11:13:34,573 INFO: 127.0.0.1 - - [04/Oct/2024 11:13:34] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 11:13:34,628 INFO: 127.0.0.1 - - [04/Oct/2024 11:13:34] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 11:13:45,626 INFO: Carregando usuário com ID: 1
+2024-10-04 11:13:45,627 INFO: Acessando a rota index
+2024-10-04 11:13:45,628 INFO: 127.0.0.1 - - [04/Oct/2024 11:13:45] "GET / HTTP/1.1" 200 -
+2024-10-04 11:13:45,673 INFO: 127.0.0.1 - - [04/Oct/2024 11:13:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 11:13:45,691 INFO: 127.0.0.1 - - [04/Oct/2024 11:13:45] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-10-04 11:13:51,478 INFO: Carregando usuário com ID: 1
+2024-10-04 11:13:51,480 INFO: Acessando a rota dashboard
+2024-10-04 11:13:51,595 INFO: 127.0.0.1 - - [04/Oct/2024 11:13:51] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 11:13:51,658 INFO: 127.0.0.1 - - [04/Oct/2024 11:13:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 11:19:51,628 INFO: Carregando usuário com ID: 1
+2024-10-04 11:19:51,630 INFO: Acessando a rota dashboard
+2024-10-04 11:19:51,703 INFO: 127.0.0.1 - - [04/Oct/2024 11:19:51] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 11:19:51,753 INFO: 127.0.0.1 - - [04/Oct/2024 11:19:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 12:22:43,950 INFO: Carregando usuário com ID: 1
+2024-10-04 12:22:43,952 INFO: Exportando dados para CSV
+2024-10-04 12:22:43,958 INFO: 127.0.0.1 - - [04/Oct/2024 12:22:43] "GET /export_csv HTTP/1.1" 200 -
+2024-10-04 12:27:25,985 INFO: Carregando usuário com ID: 1
+2024-10-04 12:27:25,987 INFO: Acessando a rota dashboard
+2024-10-04 12:27:26,082 INFO: 127.0.0.1 - - [04/Oct/2024 12:27:26] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 12:27:26,139 INFO: 127.0.0.1 - - [04/Oct/2024 12:27:26] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 12:27:35,920 INFO: Carregando usuário com ID: 1
+2024-10-04 12:27:35,922 INFO: Acessando a rota dashboard
+2024-10-04 12:27:36,012 INFO: 127.0.0.1 - - [04/Oct/2024 12:27:36] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 12:27:36,062 INFO: 127.0.0.1 - - [04/Oct/2024 12:27:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 12:27:50,999 INFO: Carregando usuário com ID: 1
+2024-10-04 12:27:51,001 INFO: Acessando a rota dashboard
+2024-10-04 12:27:51,068 INFO: 127.0.0.1 - - [04/Oct/2024 12:27:51] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 12:27:51,113 INFO: 127.0.0.1 - - [04/Oct/2024 12:27:51] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 12:31:09,716 INFO: Carregando usuário com ID: 1
+2024-10-04 12:31:09,718 INFO: Acessando a rota dashboard
+2024-10-04 12:31:09,783 INFO: 127.0.0.1 - - [04/Oct/2024 12:31:09] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 12:31:09,825 INFO: 127.0.0.1 - - [04/Oct/2024 12:31:09] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 12:32:29,521 INFO: 127.0.0.1 - - [04/Oct/2024 12:32:29] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 14:28:56,718 INFO: Carregando usuário com ID: 1
+2024-10-04 14:28:56,720 INFO: Acessando a rota dashboard
+2024-10-04 14:28:57,104 INFO: 127.0.0.1 - - [04/Oct/2024 14:28:57] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 14:28:57,152 INFO: 127.0.0.1 - - [04/Oct/2024 14:28:57] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 14:29:13,061 INFO: Carregando usuário com ID: 1
+2024-10-04 14:29:13,062 INFO: Acessando a rota dashboard
+2024-10-04 14:29:13,215 INFO: 127.0.0.1 - - [04/Oct/2024 14:29:13] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 14:29:13,275 INFO: 127.0.0.1 - - [04/Oct/2024 14:29:13] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 14:29:20,170 INFO: 127.0.0.1 - - [04/Oct/2024 14:29:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 14:29:59,514 INFO: Carregando usuário com ID: 1
+2024-10-04 14:29:59,515 INFO: Acessando a rota dashboard
+2024-10-04 14:29:59,577 INFO: 127.0.0.1 - - [04/Oct/2024 14:29:59] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 14:29:59,643 INFO: 127.0.0.1 - - [04/Oct/2024 14:29:59] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 14:30:17,127 INFO: Carregando usuário com ID: 1
+2024-10-04 14:30:17,128 INFO: Acessando a rota dashboard
+2024-10-04 14:30:17,194 INFO: 127.0.0.1 - - [04/Oct/2024 14:30:17] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 14:30:17,288 INFO: 127.0.0.1 - - [04/Oct/2024 14:30:17] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 14:30:38,314 INFO: Carregando usuário com ID: 1
+2024-10-04 14:30:38,315 INFO: Acessando a rota dashboard
+2024-10-04 14:30:38,377 INFO: 127.0.0.1 - - [04/Oct/2024 14:30:38] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 14:30:38,436 INFO: 127.0.0.1 - - [04/Oct/2024 14:30:38] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 14:30:51,467 INFO: Carregando usuário com ID: 1
+2024-10-04 14:30:51,468 INFO: Acessando a rota dashboard
+2024-10-04 14:30:51,527 INFO: 127.0.0.1 - - [04/Oct/2024 14:30:51] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 14:30:51,566 INFO: 127.0.0.1 - - [04/Oct/2024 14:30:51] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 14:30:59,864 INFO: Carregando usuário com ID: 1
+2024-10-04 14:30:59,866 INFO: Acessando a rota dashboard
+2024-10-04 14:30:59,926 INFO: 127.0.0.1 - - [04/Oct/2024 14:30:59] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 14:30:59,971 INFO: 127.0.0.1 - - [04/Oct/2024 14:30:59] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 14:31:49,292 INFO: Carregando usuário com ID: 1
+2024-10-04 14:31:49,294 INFO: Acessando a rota dashboard
+2024-10-04 14:31:49,353 INFO: 127.0.0.1 - - [04/Oct/2024 14:31:49] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 14:31:49,394 INFO: 127.0.0.1 - - [04/Oct/2024 14:31:49] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 14:32:03,488 INFO: Carregando usuário com ID: 1
+2024-10-04 14:32:03,489 INFO: Acessando a rota dashboard
+2024-10-04 14:32:03,546 INFO: 127.0.0.1 - - [04/Oct/2024 14:32:03] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 14:32:03,587 INFO: 127.0.0.1 - - [04/Oct/2024 14:32:03] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 14:32:25,429 INFO: Carregando usuário com ID: 1
+2024-10-04 14:32:25,430 INFO: Acessando a rota dashboard
+2024-10-04 14:32:25,502 INFO: 127.0.0.1 - - [04/Oct/2024 14:32:25] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 14:32:25,551 INFO: 127.0.0.1 - - [04/Oct/2024 14:32:25] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 14:32:37,816 INFO: 127.0.0.1 - - [04/Oct/2024 14:32:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 14:35:16,640 INFO: Carregando usuário com ID: 1
+2024-10-04 14:35:16,646 INFO: Acessando a rota dashboard
+2024-10-04 14:35:16,703 INFO: 127.0.0.1 - - [04/Oct/2024 14:35:16] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 14:35:16,767 INFO: 127.0.0.1 - - [04/Oct/2024 14:35:16] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 14:36:03,567 INFO: Carregando usuário com ID: 1
+2024-10-04 14:36:03,568 INFO: Acessando a rota dashboard
+2024-10-04 14:36:03,630 INFO: 127.0.0.1 - - [04/Oct/2024 14:36:03] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 14:36:03,682 INFO: 127.0.0.1 - - [04/Oct/2024 14:36:03] "GET /static/styles.css HTTP/1.1" 200 -
+2024-10-04 14:41:15,091 INFO:  * Detected change in 'D:\\eng_soft\\be\\aps1\\Flask\\app.py', reloading
+2024-10-04 14:41:15,289 INFO:  * Restarting with stat
+2024-10-04 14:41:16,327 INFO: Tabelas criadas no banco de dados.
+2024-10-04 14:41:16,327 INFO: Iniciando o servidor Flask...
+2024-10-04 14:41:16,339 WARNING:  * Debugger is active!
+2024-10-04 14:41:16,342 INFO:  * Debugger PIN: 454-801-709
+2024-10-04 14:41:18,400 INFO: Carregando usuário com ID: 1
+2024-10-04 14:41:18,410 INFO: Acessando a rota dashboard
+2024-10-04 14:41:19,176 INFO: 127.0.0.1 - - [04/Oct/2024 14:41:19] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 14:41:19,260 INFO: 127.0.0.1 - - [04/Oct/2024 14:41:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 14:42:50,183 INFO:  * Detected change in 'D:\\eng_soft\\be\\aps1\\Flask\\app.py', reloading
+2024-10-04 14:42:50,398 INFO:  * Restarting with stat
+2024-10-04 14:42:51,269 INFO: Tabelas criadas no banco de dados.
+2024-10-04 14:42:51,270 INFO: Iniciando o servidor Flask...
+2024-10-04 14:42:51,282 WARNING:  * Debugger is active!
+2024-10-04 14:42:51,286 INFO:  * Debugger PIN: 454-801-709
+2024-10-04 14:42:52,509 INFO: Carregando usuário com ID: 1
+2024-10-04 14:42:52,520 INFO: Acessando a rota dashboard
+2024-10-04 14:42:53,243 INFO: 127.0.0.1 - - [04/Oct/2024 14:42:53] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 14:42:53,317 INFO: 127.0.0.1 - - [04/Oct/2024 14:42:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 14:44:18,264 INFO: Carregando usuário com ID: 1
+2024-10-04 14:44:18,271 INFO: Exportando dados para CSV
+2024-10-04 14:44:18,280 INFO: 127.0.0.1 - - [04/Oct/2024 14:44:18] "GET /export_csv HTTP/1.1" 200 -
+2024-10-04 14:44:41,730 INFO:  * Detected change in 'D:\\eng_soft\\be\\aps1\\Flask\\app.py', reloading
+2024-10-04 14:44:41,976 INFO:  * Restarting with stat
+2024-10-04 14:44:42,751 INFO: Tabelas criadas no banco de dados.
+2024-10-04 14:44:42,751 INFO: Iniciando o servidor Flask...
+2024-10-04 14:44:42,761 WARNING:  * Debugger is active!
+2024-10-04 14:44:42,765 INFO:  * Debugger PIN: 454-801-709
+2024-10-04 14:44:44,601 INFO: Carregando usuário com ID: 1
+2024-10-04 14:44:44,613 INFO: Acessando a rota dashboard
+2024-10-04 14:44:45,348 INFO: 127.0.0.1 - - [04/Oct/2024 14:44:45] "GET /dashboard HTTP/1.1" 200 -
+2024-10-04 14:44:45,424 INFO: 127.0.0.1 - - [04/Oct/2024 14:44:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-10-04 14:45:01,187 INFO:  * Detected change in 'D:\\eng_soft\\be\\aps1\\Flask\\app.py', reloading
+2024-10-04 14:45:01,522 INFO:  * Restarting with stat
+2024-10-04 14:45:02,438 INFO: Tabelas criadas no banco de dados.
+2024-10-04 14:45:02,438 INFO: Iniciando o servidor Flask...
+2024-10-04 14:45:02,447 WARNING:  * Debugger is active!
+2024-10-04 14:45:02,452 INFO:  * Debugger PIN: 454-801-709

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Sistema Broto Fácil{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="text-center">
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" class="logo mb-4">
+        <h1 class="title">Sistema de Monitoramento</h1>
+        <p class="description">Temperatura e umidade de forma simples e eficaz.</p>
+        <a class="btn btn-custom" href="{{ url_for('dashboard') }}">Acessar Dashboard</a>
+    </div>
+</div>
+{% endblock %}

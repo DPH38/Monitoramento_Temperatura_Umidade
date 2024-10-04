@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="container text-center">
+        <h1 class="mb-4">Dashboard de Temperatura e Umidade</h1>
+        <div class="chart-container mb-4">
+            <!-- Gráfico -->
+            {{ combined_graph|safe }}
+        </div>
+        <a href="{{ url_for('index') }}">
+            <button class="btn btn-custom mt-4">Início</button>
+        </a>
+        <form action="{{ url_for('export_csv') }}" method="get">
+            <button type="submit" class="btn btn-dark btn-export mt-4">Exportar Dados em CSV</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

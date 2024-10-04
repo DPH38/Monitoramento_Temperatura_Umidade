@@ -1,0 +1,134 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+    padding-top: 0px;
+    /* Ajuste este valor conforme a altura da sua navbar */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Fixar a barra de navegação no topo */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Fixar o rodapé na parte inferior */
+footer {
+    margin-top: auto;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: none;
+    /* Remover qualquer borda superior */
+}
+
+/* Remover o fundo branco do container dentro do footer */
+footer .container {
+    background-color: transparent;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin-top: 20px;
+    /* Adicione um espaço entre a navbar e o conteúdo */
+}
+
+.logo {
+    margin-bottom: 20px;
+    object-fit: contain;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #27ae60;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.btn-custom {
+    background-color: #27ae60;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #219150;
+}
+
+.btn-export {
+    background-color: #343a40;
+    /* Fundo escuro */
+    color: #fff;
+    /* Fonte branca */
+    border: none;
+    /* Sem borda */
+    border-radius: 0;
+    /* Caixa quadrada */
+    padding: 10px 20px;
+    /* Padding */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    cursor: pointer;
+    /* Cursor de ponteiro */
+}
+
+.btn-export:hover {
+    background-color: #23272b;
+    /* Fundo escuro mais intenso ao passar o mouse */
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .container {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: 0.875rem;
+    }
+
+    .logo {
+        width: 120px;
+    }
+}
