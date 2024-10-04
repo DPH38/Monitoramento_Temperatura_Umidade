@@ -2,6 +2,18 @@
 
 Este projeto consiste em um sistema de monitoramento de temperatura e umidade utilizando uma placa ESP32 para coleta e transmissão de dados para um Broker, um serviço de assintatura do Broker MQTT para receber e armazenar dados, escrito em JavaScript e um servidor Flask para visualização dos dados em um dashboard.
 
+## Integrantes da Equipe
+
+Ana Carolina Gomes
+
+Diego Ribeiro Porto
+
+Gabriel Neri e Costa
+
+João Ribeiro Aiub
+
+Luana Estevam Bruno Carvalho
+
 ## Estrutura do Projeto
 
 Flask/ app.py static/ dashboard.css styles.css templates/ dashboard.html index.html
