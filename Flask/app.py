@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for, flash, session
+from flask import Flask, render_template, redirect, url_for, flash, session, request
 from flask_sqlalchemy import SQLAlchemy
 import plotly.graph_objs as go
 import plotly.io as pio
@@ -20,6 +20,7 @@ import os
 from io import StringIO
 import csv
 from flask import Response
+from datetime import datetime, timedelta
 
 
 
@@ -149,11 +150,27 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/dashboard")
+from datetime import datetime, timedelta
+
+@app.route("/dashboard", methods=["GET", "POST"])
 @login_required
 def dashboard():
     logger.info("Acessando a rota dashboard")
-    dados = DadosSensor.query.order_by(DadosSensor.timestamp.asc()).all()
+
+    # Obter as datas de início e fim dos parâmetros da URL
+    start_date_str = request.args.get('start_date')
+    end_date_str = request.args.get('end_date')
+
+    # Se as datas não forem fornecidas, definir o intervalo padrão para os últimos 7 dias
+    if not start_date_str or not end_date_str:
+        end_date = datetime.now()
+        start_date = end_date - timedelta(days=7)
+    else:
+        start_date = datetime.strptime(start_date_str, "%Y-%m-%d")
+        end_date = datetime.strptime(end_date_str, "%Y-%m-%d")
+
+    # Filtrar os dados com base no intervalo de datas
+    dados = DadosSensor.query.filter(DadosSensor.timestamp >= start_date, DadosSensor.timestamp <= end_date).order_by(DadosSensor.timestamp.asc()).all()
     timestamps = [d.timestamp.strftime("%d/%m/%Y %H:%M:%S") for d in dados]
     temperaturas = [d.temperatura for d in dados]
     umidades = [d.umidade for d in dados]
