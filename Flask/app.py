@@ -17,6 +17,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import timedelta
 import logging
 import os
+from pathlib import Path
 from io import StringIO
 import csv
 from flask import Response
@@ -27,7 +28,15 @@ from datetime import datetime, timedelta
 
 app = Flask(__name__, template_folder="templates", static_folder="static")
 app.config["SECRET_KEY"] = "UNISENAI"
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///D:/eng_soft/be/aps1/monitor.db"
+
+# Ajuste do caminho do banco de dados para usar caminho relativo
+BASE_DIR = Path(__file__).resolve().parent.parent  # Diretório raiz do projeto
+DB_PATH = BASE_DIR / "database" / "monitor.db"
+
+# Criar o diretório database se não existir
+DB_PATH.parent.mkdir(exist_ok=True)
+
+app.config["SQLALCHEMY_DATABASE_URI"] = f"sqlite:///{DB_PATH}"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config["FLASK_ADMIN_SWATCH"] = "cerulean"
 app.config["SESSION_PERMANENT"] = False  # Sessão não permanente
@@ -37,7 +46,9 @@ login_manager = LoginManager(app)
 login_manager.login_view = "login"
 
 # Configuração de logging
-log_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "app.log")
+LOG_PATH = BASE_DIR / "logs" / "app.log"
+LOG_PATH.parent.mkdir(exist_ok=True)
+log_file_path = str(LOG_PATH)
 logging.basicConfig(
     filename=log_file_path,
     level=logging.INFO,
@@ -68,6 +79,8 @@ def load_user(user_id):
 
 # Modelo de Dados do Sensor
 class DadosSensor(db.Model):
+    __tablename__ = 'dados_sensor'
+    
     id = db.Column(db.Integer, primary_key=True)
     temperatura = db.Column(db.Float, nullable=False)
     umidade = db.Column(db.Float, nullable=False)
@@ -177,41 +190,88 @@ def dashboard():
     umidades = [d.umidade for d in dados]
 
     fig = go.Figure()
+    
+    # Traço da Temperatura (eixo Y esquerdo)
     fig.add_trace(
         go.Scatter(
             x=timestamps,
             y=temperaturas,
             mode="lines+markers",
             name="Temperatura (°C)",
-            line=dict(color="#FF6347"),
+            line=dict(color="#FF6347", width=3),
             marker=dict(size=6),
             hovertemplate="Data: %{x}<br>Temperatura: %{y}°C<extra></extra>",
+            yaxis="y1"  # Usar o eixo Y esquerdo
         )
     )
+    
+    # Traço da Umidade (eixo Y direito)
     fig.add_trace(
         go.Scatter(
             x=timestamps,
             y=umidades,
             mode="lines+markers",
             name="Umidade (%)",
-            line=dict(color="#4682B4"),
+            line=dict(color="#4682B4", width=3),
             marker=dict(size=6),
             hovertemplate="Data: %{x}<br>Umidade: %{y}%<extra></extra>",
+            yaxis="y2"  # Usar o eixo Y direito
         )
     )
     fig.update_layout(
         title_text="TEMPERATURA E UMIDADE",
         title_x=0.5,
         xaxis_title="Data e Hora",
-        yaxis_title="Medições",
-        legend=dict(x=1, y=0.5, font=dict(size=10), bgcolor="rgba(255, 255, 255, 0.5)"),
+        
+        # Configuração do eixo X
+        xaxis=dict(
+            showgrid=True,
+            gridcolor="rgba(128, 128, 128, 0.3)",
+            tickangle=-45,
+            zeroline=True,  # Mostrar linha base no 0
+            zerolinecolor="rgba(255, 255, 255, 0.8)",
+            zerolinewidth=2,
+            nticks=10
+        ),
+        
+        # Eixo Y esquerdo - Temperatura (°C)
+        yaxis=dict(
+            title="Temperatura (°C)",
+            titlefont=dict(color="#FF6347", size=14),
+            tickfont=dict(color="#FF6347"),
+            showgrid=True,
+            gridcolor="rgba(255, 99, 71, 0.2)",
+            zeroline=True,
+            zerolinecolor="rgba(255, 99, 71, 0.3)",
+            side="left"
+        ),
+        
+        # Eixo Y direito - Umidade (%)
+        yaxis2=dict(
+            title="Umidade (%)",
+            titlefont=dict(color="#4682B4", size=14),
+            tickfont=dict(color="#4682B4"),
+            showgrid=False,  # Não mostrar grid para não conflitar
+            zeroline=False,
+            overlaying="y",  # Sobrepor ao eixo Y principal
+            side="right",
+            range=[0, 100]  # Fixar range de 0 a 100% para umidade
+        ),
+        
+        # Configurações gerais do layout
+        legend=dict(
+            x=0.01, 
+            y=0.99, 
+            font=dict(size=12, color="white"), 
+            bgcolor="rgba(0, 0, 0, 0.5)",
+            bordercolor="rgba(255, 255, 255, 0.2)",
+            borderwidth=1
+        ),
         plot_bgcolor="#2f2f2f",  # Fundo do gráfico
         paper_bgcolor="#2f2f2f",  # Fundo do papel
         font=dict(color="white"),  # Cor da fonte para contraste
-        xaxis=dict(showgrid=False, tickangle=-45, zeroline=False, nticks=10),
-        yaxis=dict(showgrid=False, zeroline=False),
-        margin=dict(l=30, r=100, t=30, b=30),
-        hovermode="x",
+        margin=dict(l=80, r=80, t=50, b=100),  # Margens ajustadas para os dois eixos
+        hovermode="x unified",  # Hover unificado para ambas as séries
     )
     combined_graph = pio.to_html(fig, full_html=False)
     return render_template("dashboard.html", combined_graph=combined_graph)
@@ -250,4 +310,21 @@ def init_db():
 if __name__ == "__main__":
     init_db()
     logger.info("Iniciando o servidor Flask...")
-    app.run(debug=True)  # Inicia o servidor no host e porta padrão (127.0.0.1:5000)
+    
+    # Configurações do servidor
+    host = '127.0.0.1'
+    port = 5000
+    
+    print("\n" + "="*60)
+    print("🌐 SERVIDOR FLASK INICIADO COM SUCESSO!")
+    print("="*60)
+    print(f"📍 URL de Acesso: http://{host}:{port}")
+    print(f"🔗 Link direto: http://localhost:{port}")
+    print("📊 Dashboard: http://localhost:5000/dashboard")
+    print("🔑 Login: http://localhost:5000/login")
+    print("📝 Registro: http://localhost:5000/register")
+    print("="*60)
+    print("⚠️  Para parar o servidor: Ctrl+C")
+    print("="*60 + "\n")
+    
+    app.run(debug=True, host=host, port=port)  # Inicia o servidor com configurações explícitas

@@ -3,6 +3,7 @@ import sqlite3 from 'sqlite3';
 import { open } from 'sqlite';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import fs from 'fs';
 import { mqttConfig, dbConfig } from './config.js'; // Importar as configurações
 
 // Obter o diretório atual
@@ -15,6 +16,14 @@ var client = connect(mqttConfig);
 // Configurar a conexão SQLite
 async function setupDatabase() {
     const dbPath = path.resolve(__dirname, dbConfig.dbPath); // Usar o caminho do arquivo de configuração
+
+    // Criar o diretório do banco de dados se não existir
+    const dbDir = path.dirname(dbPath);
+    if (!fs.existsSync(dbDir)) {
+        fs.mkdirSync(dbDir, { recursive: true });
+        console.log(`Diretório criado: ${dbDir}`);
+    }
+
     const db = await open({
         filename: dbPath,
         driver: sqlite3.Database
@@ -53,7 +62,7 @@ client.on('message', async function (topic, message) {
         console.log('Received message:', topic, messageStr);
         const regex = /Timestamp:\s([\d-]+\s[\d:]+),\sHumidity:\s([\d.]+)\s% Temperature:\s([\d.]+)\s\*C/;
         const match = messageStr.match(regex);
-        
+
         if (match) {
             const timestamp = match[1];
             const humidity = parseFloat(match[2]);

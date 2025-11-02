@@ -1,74 +1,87 @@
-# Projeto de Monitoramento de Temperatura e Umidade
+# 🌡️ Sistema de Monitoramento de Temperatura e Umidade
 
-Este projeto consiste em um sistema de monitoramento de temperatura e umidade utilizando uma placa ESP32 para coleta e transmissão de dados para um Broker, um serviço de assintatura do Broker MQTT para receber e armazenar dados, escrito em JavaScript e um servidor Flask para visualização dos dados em um dashboard.
+Sistema IoT completo para coleta, armazenamento e visualização de dados de temperatura e umidade utilizando ESP32, MQTT e Flask.
 
-## Integrantes da Equipe
+## 📊 Arquitetura do Sistema
 
-Ana Carolina Gomes
+- **ESP32 + DHT11** → Coleta dados dos sensores
+- **HiveMQ Cloud** → Broker MQTT (SSL/TLS)
+- **JS_subscriber** → Cliente MQTT + Banco SQLite
+- **Flask App** → Dashboard web interativo
 
-Diego Ribeiro Porto
+## 🏗️ Estrutura do Projeto
 
-Gabriel Neri e Costa
+```bash
+Monitoramento_Temperatura_Umidade/
+├── Flask/                 # Aplicação web Flask
+│   ├── app.py            # Servidor principal
+│   ├── templates/        # Templates HTML
+│   └── static/           # CSS e assets
+├── JS_subscriber/        # Cliente MQTT Node.js
+│   ├── index.js         # Subscriber principal
+│   └── config.js        # Configurações MQTT
+├── database/            # Banco SQLite (criado automaticamente)
+└── logs/               # Logs do sistema
+```
 
-João Ribeiro Aiub
+## ⚡ Início Rápido
 
-Luana Estevam Bruno Carvalho
+### 🔧 1. Configurar Cliente MQTT
 
-## Estrutura do Projeto
+```bash
+cd JS_subscriber
+npm install
+node index.js
+```
 
-Flask/ app.py static/ dashboard.css styles.css templates/ dashboard.html index.html
+### 🌐 2. Iniciar Dashboard Flask
 
-JS_subscriber/ index.js package.json
+```bash
+cd Flask
+pip install -r requirements.txt
+python app.py
+```
 
-README.md
+### 📱 3. Acessar Dashboard
 
-## Configuração do Firmware (ESP32)
+```bash
+Abra no navegador:  **http://localhost:5000**
 
-A placa ESP32 é responsável por coletar os dados de temperatura e umidade utilizando um sensor DHT11 e enviar esses dados para um broker MQTT na HiveMQ Cloud, este projeto está em outro repositório.
 
-### Dependências
+## 🛠️ Pré-requisitos
 
-#### Configuração do Subscriber (Node.js)
+- **Node.js 18+** para o cliente MQTT
+- **Python 3.8+** para a aplicação Flask
+- **ESP32 + DHT11** para coleta de dados (repositório separado)
 
-O subscriber em Node.js é responsável por receber os dados do broker MQTT e armazená-los no banco de dados SQLite.
+## 📡 Configuração MQTT
 
-Dependências
-Instale as dependências do subscriber listadas no arquivo package.json:
+O sistema utiliza **HiveMQ Cloud** com conexão SSL:
 
-```npm install```
+- **Host:** `********`
 
-Executando o Subscriber
-Para iniciar o subscriber, execute o seguinte comando:
+- **Porta:** `8883` (SSL)
+- **Tópico:** `******`
 
-```node JS_subscriber/index.js```
+## 📊 Recursos do Dashboard
 
-#### Configuração do Banco de Dados
+- **Gráficos Interativos** com dois eixos Y
+- **Filtros por Data** personalizáveis
+- **Exportação CSV** dos dados
+- **Autenticação** de usuários
+- **Interface Responsiva** 
 
-O banco de dados SQLite é configurado no arquivo ```/index.js```:
+## 🗄️ Banco de Dados
 
-Na chamada da função:
+- **SQLite** compartilhado entre módulos
+- **Localização:** `database/monitor.db`
+- **Criação automática** de tabelas e diretórios
 
-```setupDatabase()```
+## 📖 Documentação Detalhada
 
-#### Configuração do Servidor Flask
+- **Flask:** [Flask/README.md](Flask/README.md)
+- **JS_subscriber:** [JS_subscriber/README.md](JS_subscriber/README.md)
 
-O servidor Flask é responsável por ler os dados armazenados no banco de dados e gerar páginas com demonstração gráfica dos dados.
+## 👥 Equipe
 
-Dependências
-Instale as dependências do servidor Flask listadas no arquivo requirements.txt:
-
-```pip install -r requirements.txt```
-
-Executando o Servidor
-Para iniciar o servidor Flask, execute o seguinte comando:
-
-```python Flask/app.py```
-
-Acesse o dashboard no navegador pelo link gerado no Flask.
-
-#### Observações
-
-Certifique-se de que a placa ESP32 esteja transmitindo os dados corretamente.
-O broker MQTT utilizado é o HiveMQ Cloud.
-Licença
-Este projeto está licenciado sob a MIT License.
+Ana Carolina Gomes • Diego Ribeiro Porto • Gabriel Neri e Costa • João Ribeiro Aiub • Luana Estevam Bruno Carvalho
