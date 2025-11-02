@@ -46,7 +46,7 @@ python app.py
 
 ```bash
 Abra no navegador:  **http://localhost:5000**
-
+```
 
 ## 🛠️ Pré-requisitos
 
@@ -69,7 +69,6 @@ O sistema utiliza **HiveMQ Cloud** com conexão SSL:
 - **Filtros por Data** personalizáveis
 - **Exportação CSV** dos dados
 - **Autenticação** de usuários
-- **Interface Responsiva** 
 
 ## 🗄️ Banco de Dados
 
@@ -82,6 +81,6 @@ O sistema utiliza **HiveMQ Cloud** com conexão SSL:
 - **Flask:** [Flask/README.md](Flask/README.md)
 - **JS_subscriber:** [JS_subscriber/README.md](JS_subscriber/README.md)
 
-## 👥 Equipe
+### 👥 Equipe
 
 Ana Carolina Gomes • Diego Ribeiro Porto • Gabriel Neri e Costa • João Ribeiro Aiub • Luana Estevam Bruno Carvalho
